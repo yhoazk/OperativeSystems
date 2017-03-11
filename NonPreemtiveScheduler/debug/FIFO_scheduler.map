@@ -1,0 +1,1145 @@
+Archive member included because of file (symbol)
+
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+                              ./drivers/fsl_flash.o (symbol from plugin) (memcpy)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+                              ./utilities/fsl_debug_console.o (symbol from plugin) (strlen)
+c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                              c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .text          0x00000000        0x0 ./utilities/fsl_debug_console.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.mcgModeMatrix.4660
+                0x00000000       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6363.4651
+                0x00000000       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6371.4652
+                0x00000000       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.trimRange.6553.4657
+                0x00000000       0x10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.kFCCOBx.4330
+                0x00000000        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.kFPROTL.4329
+                0x00000000        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .bss.callFlashRunCommand.5176
+                0x00000000        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .bss.callFlashCommonBitOperation.5177
+                0x00000000        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.s_flashRunCommandFunctionCode.5175
+                0x00000000        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.s_flashCommonBitOperationFunctionCode.5173
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .bss.s_flashRunCommand.5185
+                0x00000000       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .bss.s_flashCommonBitOperation.5186
+                0x00000000       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .bss.s_flashExecuteInRamFunctionInfo.5179
+                0x00000000        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.kPFlashDensities
+                0x00000000       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.s_portBases.5368
+                0x00000000       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.s_gpioBases.5365
+                0x00000000       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6336.5366
+                0x00000000       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6342.5367
+                0x00000000       0x10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.s_uartIRQ.5738
+                0x00000000        0x8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata        0x00000000       0x58 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferStartRingBuffer.4152
+                0x00000000       0x88 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferStopRingBuffer.4148
+                0x00000000       0x78 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferSendNonBlocking.4143
+                0x00000000       0xc4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferAbortSend.4139
+                0x00000000       0x48 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferGetSendCount.4134
+                0x00000000       0x6c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferReceiveNonBlocking.4124
+                0x00000000      0x1d8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferAbortReceive.4120
+                0x00000000       0x6c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferGetReceiveCount.4114
+                0x00000000       0x78 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferHandleIRQ
+                0x00000000      0x414 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART_TransferHandleErrorIRQ.4043
+                0x00000000       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6521.5724
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6526.5725
+                0x00000000       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6557.5729
+                0x00000000       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6601.5730
+                0x00000000       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6624.5732
+                0x00000000       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6635.5734
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6643.5739.4214
+                0x00000000       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6648.5740.4213
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6654.5741.4212
+                0x00000000       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6660.5742.4211
+                0x00000000       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6666.5743.4210
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6673.5744.4209
+                0x00000000       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6686.5745.4208
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6692.5746.4207
+                0x00000000       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .rodata.__func__.6697.5733.4206
+                0x00000000       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.SystemCoreClockUpdate.4013
+                0x00000000      0x264 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .data          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.copy_flash_run_command.4986
+                0x00000000       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_command_sequence.5001
+                0x00000000       0x6c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.copy_flash_common_bit_operation.4989
+                0x00000000       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_cache_clear
+                0x00000000       0x4c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_check_execute_in_ram_function_info.4995
+                0x00000000       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_check_range.5034
+                0x00000000       0x64 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_get_matched_operation_info.5048
+                0x00000000       0x6c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_check_user_key.5090
+                0x00000000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_check_resource_range.5107
+                0x00000000       0xac C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_check_swap_control_option.5122
+                0x00000000       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_validate_swap_indicator_address.5142
+                0x00000000       0x48 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.flash_get_protection_info.5153
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.GPIO_WritePinOutput.5326.4261
+                0x00000000       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.GPIO_GetInstance.5342.4258
+                0x00000000       0x54 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.GPIO_PinInit.4247
+                0x00000000       0x70 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.GPIO_GetPinsInterruptFlags.4244
+                0x00000000       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.GPIO_ClearPinsInterruptFlags.4230
+                0x00000000       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_PreEnterStopModes.4228
+                0x00000000       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_PostExitStopModes.4226
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeRun.4223
+                0x00000000       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeWait.4220
+                0x00000000       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeStop.4214
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeVlpr
+                0x00000000       0x50 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeVlpw.4207
+                0x00000000       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeVlps.4204
+                0x00000000       0x64 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeLls.4201
+                0x00000000       0x64 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.SMC_SetPowerModeVlls.4183
+                0x00000000       0xb8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.NVIC_EnableIRQ.5484.4180
+                0x00000000       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.CLOCK_DisableClock.5495.4171
+                0x00000000       0x38 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.EnableIRQ.5498.4165
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_TransferGetRxRingBufferLength.5543
+                0x00000000       0x6c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_TransferIsRxRingBufferFull.5567
+                0x00000000       0x4c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_Deinit
+                0x00000000       0x44 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_SetBaudRate.4126
+                0x00000000      0x11c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_EnableInterrupts
+                0x00000000       0x70 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_DisableInterrupts
+                0x00000000       0x80 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_GetEnabledInterrupts.4115
+                0x00000000       0x4c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_ClearStatusFlags.4107
+                0x00000000       0x8c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_WriteNonBlocking.5623
+                0x00000000       0x54 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_ReadNonBlocking.5633
+                0x00000000       0x54 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_TransferCreateHandle.4013
+                0x00000000       0x98 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .data          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.CLOCK_BootToFeiMode.4276
+                0x00000000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.CLOCK_BootToFeeMode.4269
+                0x00000000       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.CLOCK_BootToBlpiMode
+                0x00000000       0x68 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.CLOCK_BootToBlpeMode.4261
+                0x00000000       0x54 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.CLOCK_SetMcgConfig.4222
+                0x00000000      0x1f8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.InstallIRQHandler.4208
+                0x00000000       0x74 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_Init.4205
+                0x00000000       0xc4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_SetCallback.4201
+                0x00000000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_PrepareExecuteInRamFunctions.4198
+                0x00000000       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_EraseAll.4194
+                0x00000000       0x4c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_Erase.4188
+                0x00000000       0xd8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_EraseAllExecuteOnlySegments.4184
+                0x00000000       0x4c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_Program.4178
+                0x00000000       0xd4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_ProgramOnce.4172
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_ProgramSection.4166
+                0x00000000      0x154 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_ReadResource
+                0x00000000       0xd4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_ReadOnce.4151
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_GetSecurityState.4145
+                0x00000000       0x5c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_SecurityBypass.4141
+                0x00000000       0xa4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_VerifyEraseAll.4137
+                0x00000000       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_VerifyErase.4131
+                0x00000000       0xf0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_VerifyProgram.4120
+                0x00000000       0xc4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_VerifyEraseAllExecuteOnlySegments.4114
+                0x00000000       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_IsProtected.4106
+                0x00000000      0x244 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_IsExecuteOnly.4098
+                0x00000000       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_GetProperty.4091
+                0x00000000       0xcc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_SwapControl.4074
+                0x00000000       0xb8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_Swap.4067
+                0x00000000      0x118 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_PflashSetProtection.4063
+                0x00000000       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_PflashGetProtection.4029
+                0x00000000       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_PflashSetPrefetchSpeculation
+                0x00000000       0x88 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text.FLASH_PflashGetPrefetchSpeculation.4013
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .text          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .data          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_EnableUsbfs0Clock.4142
+                0x00000000      0x100 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_GetInternalRefClkFreq
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_GetFixedFreqClkFreq
+                0x00000000       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_CalcPllDiv.4114
+                0x00000000      0x16c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetOsc0MonitorMode.4108
+                0x00000000       0x78 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetRtcOscMonitorMode.4105
+                0x00000000       0x48 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetPll0MonitorMode.4100
+                0x00000000       0x74 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_GetStatusFlags.4098
+                0x00000000       0x84 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_ClearStatusFlags.4095
+                0x00000000       0x58 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_DeinitOsc0.4079
+                0x00000000       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_TrimInternalRefClk.4070
+                0x00000000      0x138 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_GetMode
+                0x00000000       0xb8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetFeiMode
+                0x00000000       0xc0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetFeeMode
+                0x00000000       0xdc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetFbiMode
+                0x00000000       0xd0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetFbeMode
+                0x00000000       0xfc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetBlpiMode
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetBlpeMode
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_SetPeeMode
+                0x00000000       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_ExternalModeToFbeModeQuick
+                0x00000000       0x68 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text.CLOCK_InternalModeToFbiModeQuick.4013
+                0x00000000       0x4c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .text          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .data          0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_Deinit.4214
+                0x00000000       0x48 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_Scanf.4205
+                0x00000000       0xb4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_Getchar.4203
+                0x00000000       0x38 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_ScanIgnoreWhiteSpace.4080.4200
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_ScanfFormattedData.4110.4170
+                0x00000000      0x628 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text._write.4165
+                0x00000000       0x58 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text._read.4159
+                0x00000000       0x44 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.SMC_SetPowerModeProtection.4215.4147
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.SMC_GetPowerModeState.4226.4136
+                0x00000000       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.BOARD_BootClockVLPR.4134
+                0x00000000       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.init_tasks.4111
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_EnableClock.4402
+                0x00000000       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_DisableClock.4408
+                0x00000000       0x38 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_FllStableDelay.4433
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetOsc0ErClkFreq.4035
+                0x00000000       0x48 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetEr32kClkFreq.4033
+                0x00000000       0x7c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetPllFllSelClkFreq.4031
+                0x00000000       0x50 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetPlatClkFreq.4029
+                0x00000000       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetFlashClkFreq.4027
+                0x00000000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetFlexBusClkFreq.4025
+                0x00000000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetBusClkFreq.4023
+                0x00000000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetFreq.4013
+                0x00000000      0x140 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text          0x00000000        0x0 ./sources/board.o (symbol from plugin)
+ .text          0x00000000        0x0 ./sources/clock_config.o (symbol from plugin)
+ .text          0x00000000        0x0 ./sources/hello_world.o (symbol from plugin)
+ .text          0x00000000        0x0 ./sources/pin_mux.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_clock.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_common.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_flash.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_smc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_uart.o (symbol from plugin)
+ .data          0x00000000        0x0 ./devices/gcc/startup_MK64F12.o
+ .bss           0x00000000        0x0 ./devices/gcc/startup_MK64F12.o
+ .text          0x00000000        0x0 ./devices/system_MK64F12.o (symbol from plugin)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x00000000       0x12 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000000       0x28 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .eh_frame      0x00000000        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .text          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ .data          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ .bss           0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x000ffbf0         xr
+m_data           0x1fff0000         0x00010000         rw
+m_data_2         0x20000000         0x00030000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+START GROUP
+LOAD ./utilities/fsl_debug_console.o
+LOAD C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+LOAD C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+LOAD C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+LOAD C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+LOAD C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+LOAD ./sources/board.o
+LOAD ./sources/clock_config.o
+LOAD ./sources/hello_world.o
+LOAD ./sources/pin_mux.o
+LOAD ./drivers/fsl_clock.o
+LOAD ./drivers/fsl_common.o
+LOAD ./drivers/fsl_flash.o
+LOAD ./drivers/fsl_gpio.o
+LOAD ./drivers/fsl_smc.o
+LOAD ./drivers/fsl_uart.o
+LOAD ./devices/gcc/startup_MK64F12.o
+LOAD ./devices/system_MK64F12.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
+END GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu\libgcc.a
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_s.a
+END GROUP
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+                0x00000000                M_VECTOR_RAM_SIZE = DEFINED (__ram_vector_table__)?0x400:0x0
+
+.interrupts     0x00000000      0x400
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 ./devices/gcc/startup_MK64F12.o
+                0x00000000                __isr_vector
+                0x00000400                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./devices/gcc/startup_MK64F12.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x1dd8
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x54 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .text          0x00000464       0x74 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x00000464                _start
+                0x00000464                _mainCRTStartup
+ .text          0x000004d8      0x1fc ./devices/gcc/startup_MK64F12.o
+                0x000004d8                Reset_Handler
+                0x00000534                DebugMon_Handler
+                0x00000534                PORTC_IRQHandler
+                0x00000534                DMA0_DriverIRQHandler
+                0x00000534                DMA12_DriverIRQHandler
+                0x00000534                UART0_LON_DriverIRQHandler
+                0x00000534                SPI1_DriverIRQHandler
+                0x00000534                DMA_Error_DriverIRQHandler
+                0x00000534                MemManage_Handler
+                0x00000534                CMP0_IRQHandler
+                0x00000534                WDOG_EWM_IRQHandler
+                0x00000534                UART4_ERR_DriverIRQHandler
+                0x00000534                DMA7_DriverIRQHandler
+                0x00000534                I2C0_DriverIRQHandler
+                0x00000534                ENET_Transmit_DriverIRQHandler
+                0x00000534                DMA2_DriverIRQHandler
+                0x00000534                UART1_ERR_DriverIRQHandler
+                0x00000534                SDHC_DriverIRQHandler
+                0x00000534                PIT0_IRQHandler
+                0x00000534                BusFault_Handler
+                0x00000534                CMP2_IRQHandler
+                0x00000534                LLWU_IRQHandler
+                0x00000534                I2S0_Tx_DriverIRQHandler
+                0x00000534                DMA6_DriverIRQHandler
+                0x00000534                LPTMR0_IRQHandler
+                0x00000534                FTM2_IRQHandler
+                0x00000534                PORTE_IRQHandler
+                0x00000534                ENET_1588_Timer_DriverIRQHandler
+                0x00000534                I2C2_DriverIRQHandler
+                0x00000534                SWI_IRQHandler
+                0x00000534                ADC0_IRQHandler
+                0x00000534                UsageFault_Handler
+                0x00000534                FTM3_IRQHandler
+                0x00000534                CMT_IRQHandler
+                0x00000534                CAN0_DriverIRQHandler
+                0x00000534                MCM_IRQHandler
+                0x00000534                DefaultISR
+                0x00000534                DAC1_IRQHandler
+                0x00000534                UART5_ERR_DriverIRQHandler
+                0x00000534                PORTA_IRQHandler
+                0x00000534                DMA11_DriverIRQHandler
+                0x00000534                CMP1_IRQHandler
+                0x00000534                Reserved71_IRQHandler
+                0x00000534                PORTD_IRQHandler
+                0x00000534                PORTB_IRQHandler
+                0x00000534                DMA10_DriverIRQHandler
+                0x00000534                FTM0_IRQHandler
+                0x00000534                UART2_ERR_DriverIRQHandler
+                0x00000534                SPI2_DriverIRQHandler
+                0x00000534                ADC1_IRQHandler
+                0x00000534                DMA5_DriverIRQHandler
+                0x00000534                DMA4_DriverIRQHandler
+                0x00000534                LVD_LVW_IRQHandler
+                0x00000534                PIT2_IRQHandler
+                0x00000534                PIT1_IRQHandler
+                0x00000534                SPI0_DriverIRQHandler
+                0x00000534                RTC_IRQHandler
+                0x00000534                UART3_ERR_DriverIRQHandler
+                0x00000534                PDB0_IRQHandler
+                0x00000534                MCG_IRQHandler
+                0x00000534                FTM1_IRQHandler
+                0x00000534                DMA15_DriverIRQHandler
+                0x00000534                ENET_Error_DriverIRQHandler
+                0x00000534                DMA3_DriverIRQHandler
+                0x00000534                PIT3_IRQHandler
+                0x00000534                DMA13_DriverIRQHandler
+                0x00000534                RTC_Seconds_IRQHandler
+                0x00000534                DMA1_DriverIRQHandler
+                0x00000534                FTFE_IRQHandler
+                0x00000534                DMA9_DriverIRQHandler
+                0x00000534                DMA8_DriverIRQHandler
+                0x00000534                UART0_ERR_DriverIRQHandler
+                0x00000534                DAC0_IRQHandler
+                0x00000534                ENET_Receive_DriverIRQHandler
+                0x00000534                I2C1_DriverIRQHandler
+                0x00000534                Read_Collision_IRQHandler
+                0x00000534                DMA14_DriverIRQHandler
+                0x00000534                USB0_IRQHandler
+                0x00000534                RNG_IRQHandler
+                0x00000534                USBDCD_IRQHandler
+                0x00000534                I2S0_Rx_DriverIRQHandler
+                0x00000538                NMI_Handler
+                0x0000053c                HardFault_Handler
+                0x00000540                SVC_Handler
+                0x00000544                PendSV_Handler
+                0x00000548                SysTick_Handler
+                0x0000054c                DMA0_IRQHandler
+                0x00000550                DMA1_IRQHandler
+                0x00000554                DMA2_IRQHandler
+                0x00000558                DMA3_IRQHandler
+                0x0000055c                DMA4_IRQHandler
+                0x00000560                DMA5_IRQHandler
+                0x00000564                DMA6_IRQHandler
+                0x00000568                DMA7_IRQHandler
+                0x0000056c                DMA8_IRQHandler
+                0x00000570                DMA9_IRQHandler
+                0x00000574                DMA10_IRQHandler
+                0x00000578                DMA11_IRQHandler
+                0x0000057c                DMA12_IRQHandler
+                0x00000580                DMA13_IRQHandler
+                0x00000584                DMA14_IRQHandler
+                0x00000588                DMA15_IRQHandler
+                0x0000058c                DMA_Error_IRQHandler
+                0x00000590                I2C0_IRQHandler
+                0x00000594                I2C1_IRQHandler
+                0x00000598                SPI0_IRQHandler
+                0x0000059c                SPI1_IRQHandler
+                0x000005a0                I2S0_Tx_IRQHandler
+                0x000005a4                I2S0_Rx_IRQHandler
+                0x000005a8                UART0_LON_IRQHandler
+                0x000005ac                UART0_RX_TX_IRQHandler
+                0x000005b0                UART0_ERR_IRQHandler
+                0x000005b4                UART1_RX_TX_IRQHandler
+                0x000005b8                UART1_ERR_IRQHandler
+                0x000005bc                UART2_RX_TX_IRQHandler
+                0x000005c0                UART2_ERR_IRQHandler
+                0x000005c4                UART3_RX_TX_IRQHandler
+                0x000005c8                UART3_ERR_IRQHandler
+                0x000005cc                SPI2_IRQHandler
+                0x000005d0                UART4_RX_TX_IRQHandler
+                0x000005d4                UART4_ERR_IRQHandler
+                0x000005d8                UART5_RX_TX_IRQHandler
+                0x000005dc                UART5_ERR_IRQHandler
+                0x000005e0                I2C2_IRQHandler
+                0x000005e4                CAN0_ORed_Message_buffer_IRQHandler
+                0x000005e8                CAN0_Bus_Off_IRQHandler
+                0x000005ec                CAN0_Error_IRQHandler
+                0x000005f0                CAN0_Tx_Warning_IRQHandler
+                0x000005f4                CAN0_Rx_Warning_IRQHandler
+                0x000005f8                CAN0_Wake_Up_IRQHandler
+                0x000005fc                SDHC_IRQHandler
+                0x00000600                ENET_1588_Timer_IRQHandler
+                0x00000604                ENET_Transmit_IRQHandler
+                0x00000608                ENET_Receive_IRQHandler
+                0x0000060c                ENET_Error_IRQHandler
+ *(.text*)
+ .text.UART0_DriverIRQHandler.4041
+                0x000006d4       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART0_RX_TX_DriverIRQHandler
+                0x000006f4        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000006f4                UART0_RX_TX_DriverIRQHandler
+ .text.UART1_DriverIRQHandler.4037
+                0x00000700       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART1_RX_TX_DriverIRQHandler
+                0x00000720        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00000720                UART1_RX_TX_DriverIRQHandler
+ .text.UART2_DriverIRQHandler.4033
+                0x0000072c       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART2_RX_TX_DriverIRQHandler
+                0x0000074c        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x0000074c                UART2_RX_TX_DriverIRQHandler
+ .text.UART3_DriverIRQHandler.4029
+                0x00000758       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART3_RX_TX_DriverIRQHandler
+                0x00000778        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00000778                UART3_RX_TX_DriverIRQHandler
+ .text.UART4_DriverIRQHandler.4025
+                0x00000784       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART4_RX_TX_DriverIRQHandler
+                0x000007a4        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000007a4                UART4_RX_TX_DriverIRQHandler
+ .text.UART5_DriverIRQHandler.4021
+                0x000007b0       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .text.UART5_RX_TX_DriverIRQHandler
+                0x000007d0        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000007d0                UART5_RX_TX_DriverIRQHandler
+ .text.SystemInit
+                0x000007dc       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000007dc                SystemInit
+ .text.CLOCK_EnableClock.5490.4177
+                0x00000818       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_GetInstance.4162
+                0x0000084c       0x5c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_Init
+                0x000008a8      0x2d8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+                0x000008a8                UART_Init
+ .text.UART_GetDefaultConfig
+                0x00000b80       0x5c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+                0x00000b80                UART_GetDefaultConfig
+ .text.UART_GetStatusFlags.4112
+                0x00000bdc       0x48 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .text.UART_WriteBlocking
+                0x00000c24       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+                0x00000c24                UART_WriteBlocking
+ .text.UART_ReadBlocking
+                0x00000c60       0xa0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+                0x00000c60                UART_ReadBlocking
+ .text.CLOCK_BootToPeeMode
+                0x00000d00       0x70 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+                0x00000d00                CLOCK_BootToPeeMode
+ .text.__assert_func
+                0x00000d70       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+                0x00000d70                __assert_func
+ .text.CLOCK_SetSimConfig
+                0x00000d98       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x00000d98                CLOCK_SetSimConfig
+ .text.CLOCK_GetOutClkFreq
+                0x00000dcc       0x64 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x00000dcc                CLOCK_GetOutClkFreq
+ .text.CLOCK_GetFllFreq
+                0x00000e30       0x74 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x00000e30                CLOCK_GetFllFreq
+ .text.CLOCK_GetPll0Freq
+                0x00000ea4       0x78 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x00000ea4                CLOCK_GetPll0Freq
+ .text.CLOCK_SetExternalRefClkConfig
+                0x00000f1c       0x90 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x00000f1c                CLOCK_SetExternalRefClkConfig
+ .text.CLOCK_SetInternalRefClkConfig
+                0x00000fac      0x100 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x00000fac                CLOCK_SetInternalRefClkConfig
+ .text.CLOCK_EnablePll0
+                0x000010ac       0x90 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x000010ac                CLOCK_EnablePll0
+ .text.CLOCK_InitOsc0
+                0x0000113c       0x88 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x0000113c                CLOCK_InitOsc0
+ .text.CLOCK_SetPbeMode
+                0x000011c4       0xb0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                0x000011c4                CLOCK_SetPbeMode
+ .text.UART_EnableTx.4013.4276
+                0x00001274       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.UART_EnableRx.4057.4272
+                0x000012b4       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_Init.4217
+                0x000012f4       0x8c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_Printf
+                0x00001380       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001380                DbgConsole_Printf
+ .text.DbgConsole_Putchar.4208
+                0x000013c0       0x38 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_PrintfPaddingCharacter.4084.4193
+                0x000013f8       0x40 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_ConvertRadixNumToString.4092.4184
+                0x00001438      0x114 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.DbgConsole_PrintfFormattedData.4099.4178
+                0x0000154c      0x368 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.BOARD_InitDebugConsole.4156
+                0x000018b4       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_SetSimSafeDivs.4208.4154
+                0x000018d8       0x20 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_SetXtal0Freq.4211.4151
+                0x000018f8       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.BOARD_BootClockRUN.4132
+                0x00001914       0x64 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.BOARD_InitOsc0.4130
+                0x00001978       0x30 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.scheduler.4123
+                0x000019a8       0x1c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.print_1  0x000019c4       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x000019c4                print_1
+ .text.print_2  0x000019d8       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x000019d8                print_2
+ .text.print_4  0x000019ec       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x000019ec                print_4
+ .text.print_3  0x00001a00       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001a00                print_3
+ .text.null_task
+                0x00001a14       0x10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001a14                null_task
+ .text.main     0x00001a24       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001a24                main
+ .text.CLOCK_EnableClock.4346.4105
+                0x00001a58       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.PORT_SetPinMux.4352.4086
+                0x00001a8c       0x38 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.BOARD_InitPins.4084
+                0x00001ac4       0x44 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_SetEr32kClock.4411
+                0x00001b08       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001b08                CLOCK_SetEr32kClock.4411
+ .text.CLOCK_SetPllFllSelClock.4415
+                0x00001b34       0x38 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001b34                CLOCK_SetPllFllSelClock.4415
+ .text.OSC_SetExtRefClkConfig.4418
+                0x00001b6c       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001b6c                OSC_SetExtRefClkConfig.4418
+ .text.OSC_SetCapLoad.4429
+                0x00001ba0       0x34 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001ba0                OSC_SetCapLoad.4429
+ .text.CLOCK_GetMcgExtClkFreq.4435
+                0x00001bd4       0x8c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001bd4                CLOCK_GetMcgExtClkFreq.4435
+ .text.CLOCK_GetFllExtRefClkFreq.4437.4049
+                0x00001c60       0xc8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.CLOCK_GetInternalRefClkSelectFreq.4439
+                0x00001d28       0x44 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001d28                CLOCK_GetInternalRefClkSelectFreq.4439
+ .text.CLOCK_GetFllRefClkFreq.4441
+                0x00001d6c       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001d6c                CLOCK_GetFllRefClkFreq.4441
+ .text.CLOCK_GetPll0RefFreq.4443
+                0x00001d98       0x10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001d98                CLOCK_GetPll0RefFreq.4443
+ .text.CLOCK_GetOscRangeFromFreq.4445
+                0x00001da8       0x3c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                0x00001da8                CLOCK_GetOscRangeFromFreq.4445
+ .text.CLOCK_GetCoreSysClkFreq.4021
+                0x00001de4       0x24 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .text.exit     0x00001e08       0x28 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+                0x00001e08                exit
+ .text.__libc_init_array
+                0x00001e30       0x4c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+                0x00001e30                __libc_init_array
+ .text.memset   0x00001e7c       0x10 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+                0x00001e7c                memset
+ .text.strlen   0x00001e8c       0x10 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+                0x00001e8c                strlen
+ .text._exit    0x00001e9c        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+                0x00001e9c                _exit
+ *(.rodata)
+ .rodata        0x00001ea0      0x13c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .rodata        0x00001fdc       0x60 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .rodata        0x0000203c       0x2c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .rodata        0x00002068       0x6c C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ *(.rodata*)
+ .rodata.__func__.6318.4647
+                0x000020d4       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000020d4                __func__.6318.4647
+ .rodata.fllFactorTable.6446.4653
+                0x000020ec       0x10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000020ec                fllFactorTable.6446.4653
+ .rodata.__func__.6461.4655
+                0x000020fc       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000020fc                __func__.6461.4655
+ .rodata.__func__.6509.4656
+                0x00002110       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00002110                __func__.6509.4656
+ .rodata.__func__.6645.4658
+                0x00002124       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00002124                __func__.6645.4658
+ .rodata.__func__.6709.4659
+                0x00002138       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00002138                __func__.6709.4659
+ .rodata.s_uartBases.5722
+                0x0000214c       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x0000214c                s_uartBases.5722
+ .rodata.s_uartClock.5727
+                0x00002164       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00002164                s_uartClock.5727
+ .rodata.__func__.6517.5723
+                0x0000217c       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x0000217c                __func__.6517.5723
+ .rodata.__func__.6533.5726
+                0x00002190        0xc C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x00002190                __func__.6533.5726
+ .rodata.__func__.6551.5728
+                0x0000219c       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x0000219c                __func__.6551.5728
+ .rodata.__func__.6611.5731
+                0x000021b4       0x14 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x000021b4                __func__.6611.5731
+ .rodata.str1.1
+                0x000021c8        0x2 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ *fill*         0x000021ca        0x2 
+ .rodata._global_impure_ptr
+                0x000021cc        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+                0x000021cc                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x000021d0        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ *(.init)
+ .init          0x000021d0        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x000021d0                _init
+ .init          0x000021d4        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+ *(.fini)
+ .fini          0x000021dc        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+                0x000021dc                _fini
+ .fini          0x000021e0        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+                0x000021e8                . = ALIGN (0x4)
+
+.vfp11_veneer   0x000021e8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000021e8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000021e8        0x0
+ .iplt          0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000021e8        0x8
+                0x000021e8                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000021e8        0x8 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x000021f0                __exidx_end = .
+
+.rel.dyn        0x000021f0        0x0
+ .rel.iplt      0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.ctors          0x000021f0        0x0
+                0x000021f0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x000021f0                __CTOR_END__ = .
+
+.dtors          0x000021f0        0x0
+                0x000021f0                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x000021f0                __DTOR_END__ = .
+
+.preinit_array  0x000021f0        0x0
+                0x000021f0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000021f0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000021f0        0x4
+                0x000021f0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000021f0        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+                0x000021f4                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000021f4        0x4
+                0x000021f4                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000021f4        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+                0x000021f8                PROVIDE (__fini_array_end, .)
+                0x000021f8                __etext = .
+                0x000021f8                __DATA_ROM = .
+
+.interrupts_ram
+                0x1fff0000        0x0
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                __VECTOR_RAM__ = .
+                0x1fff0000                __interrupts_ram_start__ = .
+ *(.m_interrupts_ram)
+                0x1fff0000                . = (. + M_VECTOR_RAM_SIZE)
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                __interrupts_ram_end__ = .
+                0x00000000                __VECTOR_RAM = DEFINED (__ram_vector_table__)?__VECTOR_RAM__:ORIGIN (m_interrupts)
+                0x00000000                __RAM_VECTOR_TABLE_SIZE_BYTES = DEFINED (__ram_vector_table__)?(__interrupts_ram_end__ - __interrupts_ram_start__):0x0
+
+.data           0x1fff0000       0x98 load address 0x000021f8
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                __DATA_RAM = .
+                0x1fff0000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.TASKS    0x1fff0000       0x28 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff0000                TASKS
+ .data.s_slowIrcFreq.4649
+                0x1fff0028        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff0028                s_slowIrcFreq.4649
+ .data.s_fastIrcFreq.4650
+                0x1fff002c        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff002c                s_fastIrcFreq.4650
+ .data.SystemCoreClock
+                0x1fff0030        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff0030                SystemCoreClock
+ .data.impure_data
+                0x1fff0034       0x60 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ *(.jcr*)
+ .jcr           0x1fff0094        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .jcr           0x1fff0094        0x4 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+                0x1fff0098                . = ALIGN (0x4)
+                0x1fff0098                __data_end__ = .
+                0x00002290                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00100000                text_end = (ORIGIN (m_text) + 0xffbf0)
+                0x00000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
+                0x00000000                USB_RAM_GAP = DEFINED (__usb_ram_size__)?__usb_ram_size__:0x0
+
+.igot.plt       0x1fff0098        0x0 load address 0x00002290
+ .igot.plt      0x00000000        0x0 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+
+.bss            0x1fff0098      0x168 load address 0x00002290
+                0x1fff0098                . = ALIGN (0x4)
+                0x1fff0098                __START_BSS = .
+                0x1fff0098                __bss_start__ = .
+ *(.bss)
+ .bss           0x1fff0098       0x1c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ *(.bss*)
+ .bss.s_debugConsole.4145
+                0x1fff00b4       0x10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff00b4                s_debugConsole.4145
+ .bss.g_xtal0Freq
+                0x1fff00c4        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff00c4                g_xtal0Freq
+ .bss.g_xtal32Freq
+                0x1fff00c8        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff00c8                g_xtal32Freq
+ .bss.s_uartHandle.5735
+                0x1fff00cc       0x18 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff00cc                s_uartHandle.5735
+ .bss.s_uartIsr.5736
+                0x1fff00e4        0x4 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                0x1fff00e4                s_uartIsr.5736
+                0x1fff0200                . = ALIGN (0x200)
+ *fill*         0x1fff00e8      0x118 
+                0x1fff0200                USB_RAM_START = .
+                0x1fff0200                . = (. + USB_RAM_GAP)
+ *(COMMON)
+                0x1fff0200                . = ALIGN (0x4)
+                0x1fff0200                __bss_end__ = .
+                0x1fff0200                __END_BSS = .
+
+.heap           0x20000000      0x400
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __end__ = .
+                0x20000000                PROVIDE (end, .)
+                0x20000000                __HeapBase = .
+                0x20000400                . = (. + HEAP_SIZE)
+ *fill*         0x20000000      0x400 
+                0x20000400                __HeapLimit = .
+                0x20000400                __heap_limit = .
+
+.stack          0x20000400      0x400
+                0x20000400                . = ALIGN (0x8)
+                0x20000800                . = (. + STACK_SIZE)
+ *fill*         0x20000400      0x400 
+
+m_usb_bdt       0x1fff0200        0x0
+ *(m_usb_bdt)
+                0x1fff0200                USB_RAM_BDT_END = .
+
+m_usb_global
+ *(m_usb_global)
+                0x20030000                __StackTop = (ORIGIN (m_data_2) + 0x30000)
+                0x2002fc00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20030000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x00000076       0x37 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .ARM.attributes
+                0x000000ad       0x37 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .ARM.attributes
+                0x000000e4       0x37 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .ARM.attributes
+                0x0000011b       0x37 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .ARM.attributes
+                0x00000152       0x37 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .ARM.attributes
+                0x00000189       0x1f ./devices/gcc/startup_MK64F12.o
+ .ARM.attributes
+                0x000001a8       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000001dc       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000210       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000244       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000278       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000002ac       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000002e0       0x34 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x00000314       0x22 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
+OUTPUT(FIFO_scheduler.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x75f5
+ .debug_info    0x00000000     0x1b55 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .debug_info    0x00001b55     0x1e71 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .debug_info    0x000039c6     0x18fa C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .debug_info    0x000052c0      0xc10 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .debug_info    0x00005ed0     0x16b0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .debug_info    0x00007580       0x75 ./devices/gcc/startup_MK64F12.o
+
+.debug_abbrev   0x00000000      0xfdf
+ .debug_abbrev  0x00000000      0x38d C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .debug_abbrev  0x0000038d      0x3c7 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .debug_abbrev  0x00000754      0x25d C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .debug_abbrev  0x000009b1      0x216 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .debug_abbrev  0x00000bc7      0x404 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .debug_abbrev  0x00000fcb       0x14 ./devices/gcc/startup_MK64F12.o
+
+.debug_aranges  0x00000000      0x698
+ .debug_aranges
+                0x00000000       0xd8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .debug_aranges
+                0x000000d8      0x198 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000270      0x128 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000398      0x108 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .debug_aranges
+                0x000004a0      0x1d8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .debug_aranges
+                0x00000678       0x20 ./devices/gcc/startup_MK64F12.o
+
+.debug_ranges   0x00000000      0x628
+ .debug_ranges  0x00000000       0xc8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .debug_ranges  0x000000c8      0x188 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .debug_ranges  0x00000250      0x118 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .debug_ranges  0x00000368       0xf8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .debug_ranges  0x00000460      0x1c8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+
+.debug_line     0x00000000     0x1e88
+ .debug_line    0x00000000      0x40b C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .debug_line    0x0000040b      0x6d5 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .debug_line    0x00000ae0      0x5fd C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .debug_line    0x000010dd      0x432 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .debug_line    0x0000150f      0x7f8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .debug_line    0x00001d07      0x181 ./devices/gcc/startup_MK64F12.o
+
+.debug_str      0x00000000     0x43f2
+ .debug_str     0x00000000     0x19bd C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                               0x1a5a (size before relaxing)
+ .debug_str     0x000019bd      0xd09 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+                               0x1d45 (size before relaxing)
+ .debug_str     0x000026c6      0xe69 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+                               0x1cde (size before relaxing)
+ .debug_str     0x0000352f      0x4f5 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+                                0xa5d (size before relaxing)
+ .debug_str     0x00003a24      0x9ce C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+                               0x12b3 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+
+.debug_frame    0x00000000     0x176c
+ .debug_frame   0x00000000      0x2d0 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans0.ltrans.o
+ .debug_frame   0x000002d0      0x5b8 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans1.ltrans.o
+ .debug_frame   0x00000888      0x438 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans2.ltrans.o
+ .debug_frame   0x00000cc0      0x374 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans3.ltrans.o
+ .debug_frame   0x00001034      0x684 C:\Users\uidw7238\AppData\Local\Temp\ccf71MZc.ltrans4.ltrans.o
+ .debug_frame   0x000016b8       0x28 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-exit.o)
+ .debug_frame   0x000016e0       0x2c c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-init.o)
+ .debug_frame   0x0000170c       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-memset.o)
+ .debug_frame   0x0000172c       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_s.a(lib_a-strlen.o)
+ .debug_frame   0x0000174c       0x20 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a(_exit.o)
