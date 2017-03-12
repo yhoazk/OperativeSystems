@@ -40,17 +40,23 @@
 #define TRUE  (1==1)
 #define FALSE (!TRUE)
 
-#define TASK_NUMBER (4)
+#define TASK_NEW 		((size_t)0x0)
+#define TASK_RDY 	 	((size_t)0x1)
+#define TASK_RUN    	((size_t)0x2)
+#define TASK_WAIT 		((size_t)0x3)
+#define TASK_TERM		((size_t)0x4)
 
-#define PRIORITY_BASED (FALSE)
+#define TASK_NUMBER (4)
+#define PRINT_LIM  (20)
+#define PRIORITY_BASED (TRUE)
 
 typedef struct task
 {
 
     int(*pTask)(void);
 #if PRIORITY_BASED == TRUE
+    size_t state;
     size_t prio;
-    size_t state = 0;
 #endif
     /* There is no priority, the tasks run one after other */
     struct task *next;
@@ -59,7 +65,7 @@ typedef int(*fptr)();
 
 
 #if PRIORITY_BASED == TRUE
-#define TASK(fnc, ...)          {&fnc, ##__VA_ARGS__, &TASKS [ __COUNTER__+1]}
+#define TASK(fnc, ...)          {&fnc, 0, ##__VA_ARGS__, &TASKS [ __COUNTER__+1]}
 #else
 #define TASK(fnc, ...)          {&fnc,  &TASKS[__COUNTER__+1]}
 #endif
@@ -84,27 +90,40 @@ task_t TASKS[TASK_NUMBER + 1] = {
     // TEMPLATE:
     // TASK(<fnc_name>, [<prio>])
     TASK(print_1, 2),
-    TASK(print_2, 1),
-    TASK(print_3, 0),
+    TASK(print_2, 4),
+    TASK(print_3, 2),
     TASK(print_4, 3),
     // Add the first element
-	{null_task,  TASKS}
+	{null_task, 0, TASKS}
 };
-
+size_t current_task = 0;
 
 task_t* scheduler(task_t* current)
 {
-	task_t* next;
+	task_t* next = current; // in case there is no higher priority
 #if PRIORITY_BASED == TRUE
 	size_t i = 0;
-	/* Look for ready tasks with higher priority */
+	size_t curr_prio = 0;
+	//if(current->state == TASK_TERM)
+	{
+		//curr_prio =  0 //as the last task finished restart the priority;
+	}
+	/* Look for ready tasks with the highest priority which state is new or ready */
 	for(; i<TASK_NUMBER; i++)
 	{
-		if(current->prio > TASKS[i].prio)
+		if( (TASKS[i].state == TASK_NEW || TASKS[i].state == TASK_RDY || TASKS[i].state == TASK_RUN) )
 		{
-			next = TASKS[i]->next;
+			if( curr_prio <= TASKS[i].prio)
+			{
+				curr_prio = TASKS[i].prio;
+				next = &TASKS[i];
+				TASKS[i].state = TASK_RUN;
+				current_task = i;
+			}
+
 		}
 	}
+
 #else
 	next = current->next;
 #endif
@@ -116,28 +135,68 @@ task_t* scheduler(task_t* current)
 
 int print_1(void)
 {
-	PRINTF("1");
-    return 1;
+	int state = TASK_RDY;
+	static size_t cnt = 0;
+	if(cnt++ < PRINT_LIM)
+	{
+		PRINTF("_1\n");
+	}
+	else
+	{
+		state = TASK_TERM;
+	}
+
+	return state;
 }
 
 
 int print_2(void)
 {
-	PRINTF("2");
-    return 1;
+	int state = TASK_RDY;
+	static size_t cnt = 0;
+	if(cnt++ < PRINT_LIM)
+	{
+		PRINTF("__2\n");
+	}
+	else
+	{
+		state = TASK_TERM;
+	}
+
+	return state;
 }
 
 
 int print_4(void)
 {
-	PRINTF("4");
-    return 1;
+	static size_t cnt = 0;
+	int state = TASK_RDY;
+	if(cnt++ < PRINT_LIM)
+	{
+		PRINTF("____4\n");
+	}
+	else
+	{
+		state = TASK_TERM;
+	}
+
+    return state;
 }
 
 int print_3(void)
 {
-	PRINTF("3");
-    return 1;
+	int state = TASK_RDY;
+	static size_t cnt = 0;
+	if(cnt++ < PRINT_LIM)
+	{
+		PRINTF("___3\n");
+	}
+	else
+	{
+		state = TASK_TERM;
+	}
+
+	return state;
 }
 int null_task(void)
 {
@@ -152,7 +211,7 @@ void init_tasks(void)
 	int i = 0;
 	for(; i<TASK_NUMBER; i++)
 	{
-
+		TASKS[i].state = 0;
 	}
 
 }
@@ -169,15 +228,13 @@ int main(void)
     BOARD_InitPins();
     BOARD_BootClockRUN();
     BOARD_InitDebugConsole();
-
+    init_tasks();
     PRINTF("Start.\r\n");
 
     while (1)
     {
-
-       (void) t->pTask();
-       //t->ready
-       t = scheduler(t);
+    	t = scheduler(t);
+    	t->state = t->pTask();
 
     }
 }
