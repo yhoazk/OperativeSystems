@@ -63,7 +63,7 @@ int setjmp(jmp_buf env);
 
 
 
-#### Preemption vs context switch
+#### Preemptionx vs context switch
 
 Preemption is the act of interrupting a process without its involvement. In this context, that probably means a timer interrupt will fire.
 

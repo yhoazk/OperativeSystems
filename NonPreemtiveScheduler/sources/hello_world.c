@@ -89,10 +89,10 @@ task_t TASKS[TASK_NUMBER + 1] = {
     /*DECLARE YOUR COMMA SEPARATED TASKS HERE  */
     // TEMPLATE:
     // TASK(<fnc_name>, [<prio>])
-    TASK(print_1, 2),
+    TASK(print_1, 1),
     TASK(print_2, 4),
-    TASK(print_3, 2),
-    TASK(print_4, 3),
+    TASK(print_3, 3),
+    TASK(print_4, 5),
     // Add the first element
 	{null_task, 0, TASKS}
 };
