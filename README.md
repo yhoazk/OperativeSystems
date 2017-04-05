@@ -70,6 +70,16 @@ Preemption is the act of interrupting a process without its involvement. In this
 A context switch is what happens when the OS code (running preemptively) alters the state of the processor (the registers, mode, and stack) between one process or thread's context and another. The state of the processor may be at a certain line of code in a one thread. It will have temporary data in registers, a stack pointer at a certain region of memory, and other state information. A preemptive OS can store this state (either to static memory or onto the processes' stack) and load the state of a previous process. This is known as a context switch.
 
 
+
+### TCP/IP
+
+##### Ethernet.
+Ethernet defines the mechanical / electrical connection btw devices. (PHY)
+Ethernet also definesc a protocol used to communicate beetween multiple  devices (MAC layer)
+
+Ethernet is defined by tje IEEE 802.3 std.
+
+
 - - -
 
 ### Resources
