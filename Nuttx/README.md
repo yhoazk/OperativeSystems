@@ -83,7 +83,17 @@ sudo cp 90-atmel-edbg.rules  /etc/udev/rules.d/
 ```
 
 
-# Testing the `edbg`
+### Testing the `edbg`
 ```
 ./edbg -r -t atmel_cm7  -f ./read_prog.bin
 ```
+
+## Currently working:
+```
+./edbg -bpv -t atmel_cm7 -f ~/workspace/nx/nuttx/nuttx.bin 
+```
+
+
+### File description:
+- `_config`: My configuration, unstable as of Apr17 2017
+- `_config_repo`: The configuration which is closest to the one in the nuttx repo.
