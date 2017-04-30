@@ -57,12 +57,20 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
+#include <nuttx/config.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
 #include <nuttx/net/arp.h>
 #include "netutils/netlib.h"
 
 #ifdef CONFIG_EXAMPLES_TCPECHO_DHCPC
 #  include <arpa/inet.h>
 #endif
+
+
+#define LED_DEV_NAME "/dev/userleds"
+
 
 /* Here we include the header file for the application(s) we use in
  * our project as defined in the config/<board-name>/defconfig file
@@ -84,13 +92,60 @@
 /****************************************************************************
  * Private Data
  ****************************************************************************/
-
+int fd = NULL; // File desciptor for led
+int glb_dly = 500000;
 /****************************************************************************
  * Private Function Prototypes
  ****************************************************************************/
 
 static int tcpecho_netsetup(void);
 static int tcpecho_server(void);
+
+static int open_led_dev(void);
+
+
+static int open_led_dev(void)
+{
+  int _fd = open(LED_DEV_NAME, O_WRONLY);
+  if(_fd < 0)
+  {
+    printf("Error opening LED device %s\n\n", LED_DEV_NAME);
+  }
+  else
+  {
+    printf("Sucess opening LED device %s\n\n", LED_DEV_NAME);
+  }
+  return _fd;
+}
+
+static void toogle_led(int led_fd)
+{
+  static internal_delay = 50000;
+  static state = 1;
+  int off = 0;
+  int on = 1;
+  printf(".");
+ // if(internal_delay > 2)
+ // {
+ //   --internal_delay;
+ // }
+ // else
+ // {
+ //   internal_delay = glb_dly;
+    // toogle 
+    state ^= 1;
+    if(state)
+    {
+      write(led_fd,&on,1);
+    }
+    else
+    {
+      write(led_fd,&off,1);
+    }
+ // }
+}
+
+
 
 /****************************************************************************
  * Private Functions
@@ -202,7 +257,7 @@ static int tcpecho_server(void)
   bool stop = false;
   struct pollfd client[CONFIG_EXAMPLES_TCPECHO_NCONN];
   struct sockaddr_in cliaddr, servaddr;
-
+  int led_fd;
    // printf("b4 sock:AF_INET:%d\n", AF_INET);
   listenfd = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -220,6 +275,10 @@ static int tcpecho_server(void)
 
   printf("ECHO PORT: %d\n",servaddr.sin_port);
   printf("ECHO PORT: %d\n",INADDR_ANY);
+
+  /* Open Led device  */
+  led_fd = open_led_dev();
+
   ret = bind(listenfd, (struct sockaddr*)&servaddr, sizeof(servaddr));
   printf("ret: %d\n",ret);
   if (ret < 0)
@@ -247,8 +306,10 @@ static int tcpecho_server(void)
 
   maxi = 0;                     /* max index into client[] array */
 
+      printf("x");
   while (!stop)
     {
+      printf("-");
       nready = poll(client, maxi+1, TCPECHO_POLLTIMEOUT);
 
       if (client[0].revents & POLLRDNORM)
@@ -259,7 +320,7 @@ static int tcpecho_server(void)
           connfd = accept(listenfd, (struct sockaddr*)&cliaddr, &clilen);
 
           ninfo("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
-            printf("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
+          printf("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
 
           for (i = 1; i < CONFIG_EXAMPLES_TCPECHO_NCONN; i++)
             {
@@ -336,6 +397,10 @@ static int tcpecho_server(void)
                     }
                   else
                     {
+                      glb_dly = 5000 * buf[0]-0x30;
+                      printf("global delay: %i\n", glb_dly);
+                      toogle_led(led_fd);
+                      printf("%s\n", buf);
                       write(sockfd, buf, n);
                     }
                 }

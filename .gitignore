@@ -3,3 +3,9 @@
 *.map
 *.d
 *.bin
+*.log
+*.a
+.built
+*.obj
+*.hobj
+uImage
