@@ -1,0 +1,35 @@
+dhcpc.o: dhcpc.c /home/porko/workspace/nx/nuttx/include/sys/types.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/config.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/compiler.h \
+ /home/porko/workspace/nx/nuttx/include/stdint.h \
+ /home/porko/workspace/nx/nuttx/include/arch/types.h \
+ /home/porko/workspace/nx/nuttx/include/limits.h \
+ /home/porko/workspace/nx/nuttx/include/arch/limits.h \
+ /home/porko/workspace/nx/nuttx/include/sys/socket.h \
+ /home/porko/workspace/nx/nuttx/include/sys/time.h \
+ /home/porko/workspace/nx/nuttx/include/time.h \
+ /home/porko/workspace/nx/nuttx/include/stdlib.h \
+ /home/porko/workspace/nx/nuttx/include/string.h \
+ /home/porko/workspace/nx/nuttx/include/stddef.h \
+ /home/porko/workspace/nx/nuttx/include/unistd.h \
+ /home/porko/workspace/nx/nuttx/include/errno.h \
+ /home/porko/workspace/nx/nuttx/include/debug.h \
+ /home/porko/workspace/nx/nuttx/include/syslog.h \
+ /usr/lib/gcc/arm-none-eabi/6.2.0/include/stdarg.h \
+ /home/porko/workspace/nx/nuttx/include/stdbool.h \
+ /home/porko/workspace/nx/nuttx/include/arpa/inet.h \
+ /home/porko/workspace/nx/nuttx/include/netinet/in.h \
+ /home/porko/workspace/nx/apps/include/netutils/dhcpc.h \
+ /home/porko/workspace/nx/apps/include/netutils/netlib.h \
+ /home/porko/workspace/nx/nuttx/include/pthread.h \
+ /home/porko/workspace/nx/nuttx/include/sys/prctl.h \
+ /home/porko/workspace/nx/nuttx/include/signal.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/semaphore.h \
+ /home/porko/workspace/nx/nuttx/include/semaphore.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/clock.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/fs/fs.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/mqueue.h \
+ /home/porko/workspace/nx/nuttx/include/mqueue.h \
+ /home/porko/workspace/nx/nuttx/include/queue.h \
+ /home/porko/workspace/nx/nuttx/include/queue.h \
+ /home/porko/workspace/nx/nuttx/include/nuttx/net/netconfig.h

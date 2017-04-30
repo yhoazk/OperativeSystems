@@ -1,0 +1,1 @@
+{ "rgbled", 100, 2048, rgbled_main },

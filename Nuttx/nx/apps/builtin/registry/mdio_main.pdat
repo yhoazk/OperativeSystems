@@ -1,0 +1,1 @@
+int mdio_main(int argc, char *argv[]);

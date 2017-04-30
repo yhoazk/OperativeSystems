@@ -1,0 +1,1 @@
+{ "mdio", SCHED_PRIORITY_DEFAULT, 2048, mdio_main },

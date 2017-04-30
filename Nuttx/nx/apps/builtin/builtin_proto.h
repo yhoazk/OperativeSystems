@@ -1,0 +1,9 @@
+int ftpc_main(int argc, char *argv[]);
+int gpio_main(int argc, char *argv[]);
+int hello_main(int argc, char *argv[]);
+int i2c_main(int argc, char *argv[]);
+int mdio_main(int argc, char *argv[]);
+int nettest_main(int argc, char *argv[]);
+int ramtest_main(int argc, char *argv[]);
+int rgbled_main(int argc, char *argv[]);
+int tcpecho_main(int argc, char *argv[]);

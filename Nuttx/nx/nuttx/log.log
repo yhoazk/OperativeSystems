@@ -1,0 +1,1287 @@
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/tools'
+LN: include/arch/board to /home/porko/workspace/nx/nuttx/configs/samv71-xult/include
+LN: include/arch/chip to arch/arm/include/samv7
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/configs'
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/configs'
+make[1]: Entering directory '/home/porko/workspace/nx/apps'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/platform'
+LN: platform/board to /home/porko/workspace/nx/apps/platform/samv71-xult
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/platform'
+make[1]: Leaving directory '/home/porko/workspace/nx/apps'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/configs'
+make[2]: Entering directory '/home/porko/workspace/nx/nuttx/arch/arm/src/board'
+make[2]: Nothing to be done for 'context'.
+make[2]: Leaving directory '/home/porko/workspace/nx/nuttx/arch/arm/src/board'
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/configs'
+make[1]: Entering directory '/home/porko/workspace/nx/apps'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/builtin'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/builtin'
+make[2]: Entering directory '/home/porko/workspace/nx/apps'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/hello'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/hello'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/nshlib'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/nshlib'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/builtin'
+make[4]: Entering directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[4]: Nothing to be done for 'context'.
+make[4]: Leaving directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/builtin'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/install'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/install'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/readline'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/readline'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/netdb'
+Register: netdb
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/netdb'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/i2c'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/i2c'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/ramtest'
+Register: ramtest
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/ramtest'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/platform'
+LN: platform/board to /home/porko/workspace/nx/apps/platform/samv71-xult
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/platform'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps'
+make[1]: Leaving directory '/home/porko/workspace/nx/apps'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/tools'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/sched'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/sched'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/drivers'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/drivers'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/configs'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/configs'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/arch/arm/src'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/arch/arm/src'
+make[1]: Entering directory '/home/porko/workspace/nx/apps'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/builtin'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/builtin'
+make[2]: Entering directory '/home/porko/workspace/nx/apps'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/hello'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/hello'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/nshlib'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/nshlib'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/builtin'
+make[4]: Entering directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[4]: Nothing to be done for 'context'.
+make[4]: Leaving directory '/home/porko/workspace/nx/apps/builtin/registry'
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/builtin'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/install'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/install'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/readline'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/readline'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/netdb'
+Register: netdb
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/netdb'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/i2c'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/i2c'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/system/ramtest'
+Register: ramtest
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/system/ramtest'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[3]: Nothing to be done for 'context'.
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[3]: Entering directory '/home/porko/workspace/nx/apps/platform'
+LN: platform/board to /home/porko/workspace/nx/apps/platform/samv71-xult
+make[3]: Leaving directory '/home/porko/workspace/nx/apps/platform'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/hello'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/hello'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/nshlib'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/nshlib'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/builtin'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/builtin'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/install'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/install'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/readline'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/readline'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/netdb'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/netdb'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/i2c'
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/i2c'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/ramtest'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/ramtest'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[2]: Nothing to be done for 'depend'.
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/platform'
+LN: platform/board to /home/porko/workspace/nx/apps/platform/samv71-xult
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/platform'
+make[1]: Leaving directory '/home/porko/workspace/nx/apps'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/libc'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/libc'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/mm'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/mm'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/fs'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/fs'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/binfmt'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/binfmt'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/net'
+make[1]: Nothing to be done for 'depend'.
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/net'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/sched'
+CC:  clock/clock_initialize.c
+CC:  clock/clock_settime.c
+CC:  clock/clock_gettime.c
+CC:  clock/clock_getres.c
+CC:  clock/clock_time2ticks.c
+CC:  clock/clock_abstime2ticks.c
+CC:  clock/clock_ticks2time.c
+CC:  clock/clock_systimer.c
+CC:  clock/clock_systimespec.c
+CC:  clock/clock_timespec_add.c
+CC:  clock/clock_timespec_subtract.c
+CC:  errno/errno_getptr.c
+CC:  environ/env_getenvironptr.c
+CC:  environ/env_dup.c
+CC:  environ/env_release.c
+CC:  environ/env_findvar.c
+CC:  environ/env_removevar.c
+CC:  environ/env_clearenv.c
+CC:  environ/env_getenv.c
+CC:  environ/env_putenv.c
+CC:  environ/env_setenv.c
+CC:  environ/env_unsetenv.c
+CC:  group/group_create.c
+CC:  group/group_join.c
+CC:  group/group_leave.c
+CC:  group/group_find.c
+CC:  group/group_setupstreams.c
+CC:  group/group_setupidlefiles.c
+CC:  group/group_setuptaskfiles.c
+CC:  group/group_foreachchild.c
+CC:  group/group_killchildren.c
+CC:  group/group_waiter.c
+CC:  group/group_signal.c
+CC:  init/os_start.c
+CC:  init/os_bringup.c
+CC:  irq/irq_initialize.c
+CC:  irq/irq_attach.c
+CC:  irq/irq_dispatch.c
+CC:  irq/irq_unexpectedisr.c
+CC:  mqueue/mq_send.c
+CC:  mqueue/mq_timedsend.c
+CC:  mqueue/mq_sndinternal.c
+CC:  mqueue/mq_receive.c
+CC:  mqueue/mq_timedreceive.c
+CC:  mqueue/mq_rcvinternal.c
+CC:  mqueue/mq_initialize.c
+CC:  mqueue/mq_descreate.c
+CC:  mqueue/mq_desclose.c
+CC:  mqueue/mq_msgfree.c
+CC:  mqueue/mq_msgqalloc.c
+CC:  mqueue/mq_msgqfree.c
+CC:  mqueue/mq_release.c
+CC:  mqueue/mq_recover.c
+CC:  mqueue/mq_setattr.c
+CC:  mqueue/mq_getattr.c
+CC:  mqueue/mq_waitirq.c
+CC:  mqueue/mq_notify.c
+CC:  module/mod_insmod.c
+CC:  module/mod_rmmod.c
+CC:  module/mod_modsym.c
+CC:  module/mod_modhandle.c
+CC:  module/mod_procfs.c
+CC:  paging/pg_miss.c
+CC:  paging/pg_worker.c
+CC:  pthread/pthread_create.c
+CC:  pthread/pthread_exit.c
+CC:  pthread/pthread_join.c
+CC:  pthread/pthread_detach.c
+CC:  pthread/pthread_yield.c
+CC:  pthread/pthread_getschedparam.c
+CC:  pthread/pthread_setschedparam.c
+CC:  pthread/pthread_mutexinit.c
+CC:  pthread/pthread_mutexdestroy.c
+CC:  pthread/pthread_mutexlock.c
+CC:  pthread/pthread_mutextrylock.c
+CC:  pthread/pthread_mutexunlock.c
+CC:  pthread/pthread_condinit.c
+CC:  pthread/pthread_conddestroy.c
+CC:  pthread/pthread_condwait.c
+CC:  pthread/pthread_condsignal.c
+CC:  pthread/pthread_condbroadcast.c
+CC:  pthread/pthread_barrierinit.c
+CC:  pthread/pthread_barrierdestroy.c
+CC:  pthread/pthread_barrierwait.c
+CC:  pthread/pthread_cancel.c
+CC:  pthread/pthread_keycreate.c
+CC:  pthread/pthread_setspecific.c
+CC:  pthread/pthread_getspecific.c
+CC:  pthread/pthread_keydelete.c
+CC:  pthread/pthread_initialize.c
+CC:  pthread/pthread_completejoin.c
+CC:  pthread/pthread_findjoininfo.c
+CC:  pthread/pthread_once.c
+CC:  pthread/pthread_release.c
+CC:  pthread/pthread_setschedprio.c
+CC:  pthread/pthread_condtimedwait.c
+CC:  pthread/pthread_kill.c
+CC:  pthread/pthread_sigmask.c
+CC:  sched/sched_garbage.c
+CC:  sched/sched_getfiles.c
+CC:  sched/sched_addreadytorun.c
+CC:  sched/sched_removereadytorun.c
+CC:  sched/sched_addprioritized.c
+CC:  sched/sched_mergeprioritized.c
+CC:  sched/sched_mergepending.c
+CC:  sched/sched_addblocked.c
+CC:  sched/sched_removeblocked.c
+CC:  sched/sched_free.c
+CC:  sched/sched_gettcb.c
+CC:  sched/sched_verifytcb.c
+CC:  sched/sched_releasetcb.c
+CC:  sched/sched_getsockets.c
+CC:  sched/sched_getstreams.c
+CC:  sched/sched_setparam.c
+CC:  sched/sched_setpriority.c
+CC:  sched/sched_getparam.c
+CC:  sched/sched_setscheduler.c
+CC:  sched/sched_getscheduler.c
+CC:  sched/sched_yield.c
+CC:  sched/sched_rrgetinterval.c
+CC:  sched/sched_foreach.c
+CC:  sched/sched_lock.c
+CC:  sched/sched_unlock.c
+CC:  sched/sched_lockcount.c
+CC:  sched/sched_idletask.c
+CC:  sched/sched_self.c
+CC:  sched/sched_waitpid.c
+CC:  sched/sched_roundrobin.c
+CC:  sched/sched_resumescheduler.c
+CC:  sched/sched_processtimer.c
+CC:  semaphore/sem_destroy.c
+CC:  semaphore/sem_wait.c
+CC:  semaphore/sem_trywait.c
+CC:  semaphore/sem_tickwait.c
+CC:  semaphore/sem_timedwait.c
+CC:  semaphore/sem_timeout.c
+CC:  semaphore/sem_post.c
+CC:  semaphore/sem_recover.c
+CC:  semaphore/sem_reset.c
+CC:  semaphore/sem_waitirq.c
+CC:  signal/sig_initialize.c
+CC:  signal/sig_action.c
+CC:  signal/sig_procmask.c
+CC:  signal/sig_pending.c
+CC:  signal/sig_suspend.c
+CC:  signal/sig_kill.c
+CC:  signal/sig_queue.c
+CC:  signal/sig_waitinfo.c
+CC:  signal/sig_timedwait.c
+CC:  signal/sig_findaction.c
+CC:  signal/sig_allocatependingsigaction.c
+CC:  signal/sig_releasependingsigaction.c
+CC:  signal/sig_unmaskpendingsignal.c
+CC:  signal/sig_removependingsignal.c
+CC:  signal/sig_releasependingsignal.c
+CC:  signal/sig_lowest.c
+CC:  signal/sig_mqnotempty.c
+CC:  signal/sig_cleanup.c
+CC:  signal/sig_dispatch.c
+CC:  signal/sig_deliver.c
+CC:  signal/sig_pause.c
+CC:  signal/sig_nanosleep.c
+CC:  task/task_create.c
+CC:  task/task_init.c
+CC:  task/task_setup.c
+CC:  task/task_activate.c
+CC:  task/task_start.c
+CC:  task/task_delete.c
+CC:  task/task_exit.c
+CC:  task/task_exithook.c
+CC:  task/task_getgroup.c
+CC:  task/task_getpid.c
+CC:  task/task_prctl.c
+CC:  task/task_recover.c
+CC:  task/task_restart.c
+CC:  task/task_spawnparms.c
+CC:  task/task_setcancelstate.c
+CC:  task/task_terminate.c
+CC:  task/exit.c
+CC:  task/task_vfork.c
+CC:  task/task_spawn.c
+CC:  timer/timer_initialize.c
+CC:  timer/timer_create.c
+CC:  timer/timer_delete.c
+CC:  timer/timer_getoverrun.c
+CC:  timer/timer_gettime.c
+CC:  timer/timer_settime.c
+CC:  timer/timer_release.c
+CC:  wdog/wd_initialize.c
+CC:  wdog/wd_create.c
+CC:  wdog/wd_start.c
+CC:  wdog/wd_cancel.c
+CC:  wdog/wd_delete.c
+CC:  wdog/wd_gettime.c
+CC:  wdog/wd_recover.c
+CC:  wqueue/kwork_queue.c
+CC:  wqueue/kwork_process.c
+CC:  wqueue/kwork_cancel.c
+CC:  wqueue/kwork_signal.c
+CC:  wqueue/kwork_hpthread.c
+AR:   clock_initialize.o clock_settime.o clock_gettime.o clock_getres.o clock_time2ticks.o clock_abstime2ticks.o clock_ticks2time.o clock_systimer.o clock_systimespec.o clock_timespec_add.o clock_timespec_subtract.o errno_getptr.o env_getenvironptr.o env_dup.o env_release.o env_findvar.o env_removevar.o env_clearenv.o env_getenv.o env_putenv.o env_setenv.o env_unsetenv.o group_create.o group_join.o group_leave.o group_find.o group_setupstreams.o group_setupidlefiles.o group_setuptaskfiles.o group_foreachchild.o group_killchildren.o group_waiter.o group_signal.o os_start.o os_bringup.o irq_initialize.o irq_attach.o irq_dispatch.o irq_unexpectedisr.o mq_send.o mq_timedsend.o mq_sndinternal.o mq_receive.o mq_timedreceive.o mq_rcvinternal.o mq_initialize.o mq_descreate.o mq_desclose.o mq_msgfree.o mq_msgqalloc.o mq_msgqfree.o mq_release.o mq_recover.o mq_setattr.o mq_getattr.o mq_waitirq.o mq_notify.o mod_insmod.o mod_rmmod.o mod_modsym.o mod_modhandle.o mod_procfs.o pg_miss.o pg_worker.o pthread_create.o pthread_exit.o pthread_join.o pthread_detach.o pthread_yield.o pthread_getschedparam.o pthread_setschedparam.o pthread_mutexinit.o pthread_mutexdestroy.o pthread_mutexlock.o pthread_mutextrylock.o pthread_mutexunlock.o pthread_condinit.o pthread_conddestroy.o pthread_condwait.o pthread_condsignal.o pthread_condbroadcast.o pthread_barrierinit.o pthread_barrierdestroy.o pthread_barrierwait.o pthread_cancel.o pthread_keycreate.o pthread_setspecific.o pthread_getspecific.o pthread_keydelete.o pthread_initialize.o pthread_completejoin.o pthread_findjoininfo.o pthread_once.o pthread_release.o pthread_setschedprio.o pthread_condtimedwait.o pthread_kill.o pthread_sigmask.o sched_garbage.o sched_getfiles.o sched_addreadytorun.o sched_removereadytorun.o sched_addprioritized.o sched_mergeprioritized.o sched_mergepending.o sched_addblocked.o sched_removeblocked.o sched_free.o sched_gettcb.o sched_verifytcb.o sched_releasetcb.o sched_getsockets.o sched_getstreams.o sched_setparam.o sched_setpriority.o sched_getparam.o sched_setscheduler.o sched_getscheduler.o sched_yield.o sched_rrgetinterval.o sched_foreach.o sched_lock.o sched_unlock.o sched_lockcount.o sched_idletask.o sched_self.o sched_waitpid.o sched_roundrobin.o sched_resumescheduler.o sched_processtimer.o sem_destroy.o sem_wait.o sem_trywait.o sem_tickwait.o sem_timedwait.o sem_timeout.o sem_post.o sem_recover.o sem_reset.o sem_waitirq.o sig_initialize.o sig_action.o sig_procmask.o sig_pending.o sig_suspend.o sig_kill.o sig_queue.o sig_waitinfo.o sig_timedwait.o sig_findaction.o sig_allocatependingsigaction.o sig_releasependingsigaction.o sig_unmaskpendingsignal.o sig_removependingsignal.o sig_releasependingsignal.o sig_lowest.o sig_mqnotempty.o sig_cleanup.o sig_dispatch.o sig_deliver.o sig_pause.o sig_nanosleep.o task_create.o task_init.o task_setup.o task_activate.o task_start.o task_delete.o task_exit.o task_exithook.o task_getgroup.o task_getpid.o task_prctl.o task_recover.o task_restart.o task_spawnparms.o task_setcancelstate.o task_terminate.o exit.o task_vfork.o task_spawn.o timer_initialize.o timer_create.o timer_delete.o timer_getoverrun.o timer_gettime.o timer_settime.o timer_release.o wd_initialize.o wd_create.o wd_start.o wd_cancel.o wd_delete.o wd_gettime.o wd_recover.o kwork_queue.o kwork_process.o kwork_cancel.o kwork_signal.o kwork_hpthread.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/sched'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/drivers'
+CC:  bch/bchlib_setup.c
+CC:  bch/bchlib_teardown.c
+CC:  bch/bchlib_read.c
+CC:  bch/bchlib_write.c
+CC:  bch/bchlib_cache.c
+CC:  bch/bchlib_sem.c
+CC:  bch/bchdev_register.c
+CC:  bch/bchdev_unregister.c
+CC:  bch/bchdev_driver.c
+CC:  i2c/i2c_read.c
+CC:  i2c/i2c_write.c
+CC:  i2c/i2c_writeread.c
+CC:  i2c/i2c_driver.c
+CC:  ioexpander/gpio.c
+CC:  leds/userled_upper.c
+CC:  leds/userled_lower.c
+CC:  loop/losetup.c
+CC:  mmcsd/mmcsd_sdio.c
+CC:  mtd/at45db.c
+CC:  mtd/ftl.c
+CC:  mtd/ramtron.c
+CC:  mtd/mtd_config.c
+CC:  mtd/at24xx.c
+CC:  mtd/at25.c
+CC:  mtd/mtd_procfs.c
+CC:  net/telnet.c
+CC:  net/phy_notify.c
+CC:  pipes/pipe.c
+CC:  pipes/fifo.c
+CC:  pipes/pipe_common.c
+CC:  serial/serial.c
+CC:  serial/serial_io.c
+CC:  serial/lowconsole.c
+CC:  spi/spi_transfer.c
+CC:  syslog/vsyslog.c
+CC:  syslog/syslog_stream.c
+CC:  syslog/syslog_emergstream.c
+CC:  syslog/syslog_channel.c
+CC:  syslog/syslog_putc.c
+CC:  syslog/syslog_force.c
+CC:  syslog/syslog_flush.c
+CC:  syslog/syslog_initialize.c
+CC:  syslog/syslog_device.c
+CC:  syslog/syslog_consolechannel.c
+CC:  usbhost/hid_parser.c
+CC:  dev_null.c
+CC:  dev_zero.c
+CC:  ramdisk.c
+AR:   bchlib_setup.o bchlib_teardown.o bchlib_read.o bchlib_write.o bchlib_cache.o bchlib_sem.o bchdev_register.o bchdev_unregister.o bchdev_driver.o i2c_read.o i2c_write.o i2c_writeread.o i2c_driver.o gpio.o userled_upper.o userled_lower.o losetup.o mmcsd_sdio.o at45db.o ftl.o ramtron.o mtd_config.o at24xx.o at25.o mtd_procfs.o telnet.o phy_notify.o pipe.o fifo.o pipe_common.o serial.o serial_io.o lowconsole.o spi_transfer.o vsyslog.o syslog_stream.o syslog_emergstream.o syslog_channel.o syslog_putc.o syslog_force.o syslog_flush.o syslog_initialize.o syslog_device.o syslog_consolechannel.o hid_parser.o dev_null.o dev_zero.o ramdisk.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/drivers'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/configs'
+CC:  boardctl.c
+AR:   boardctl.o 
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/configs'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/libc'
+CC:  dirent/lib_readdirr.c
+CC:  dirent/lib_telldir.c
+CC:  fixedmath/lib_fixedmath.c
+CC:  fixedmath/lib_b16sin.c
+CC:  fixedmath/lib_b16cos.c
+CC:  fixedmath/lib_b16atan2.c
+CC:  inttypes/lib_imaxabs.c
+CC:  inttypes/lib_strtoimax.c
+CC:  inttypes/lib_strtoumax.c
+CC:  libgen/lib_basename.c
+CC:  libgen/lib_dirname.c
+CC:  machine/arm/armv7-m/arch_elf.c
+CC:  math/lib_acosf.c
+CC:  math/lib_asinf.c
+CC:  math/lib_atan2f.c
+CC:  math/lib_atanf.c
+CC:  math/lib_cosf.c
+CC:  math/lib_coshf.c
+CC:  math/lib_expf.c
+CC:  math/lib_fabsf.c
+CC:  math/lib_fmodf.c
+CC:  math/lib_frexpf.c
+CC:  math/lib_ldexpf.c
+CC:  math/lib_logf.c
+CC:  math/lib_log10f.c
+CC:  math/lib_log2f.c
+CC:  math/lib_modff.c
+CC:  math/lib_powf.c
+CC:  math/lib_sinf.c
+CC:  math/lib_sinhf.c
+CC:  math/lib_sqrtf.c
+CC:  math/lib_tanf.c
+CC:  math/lib_tanhf.c
+CC:  math/lib_asinhf.c
+CC:  math/lib_acoshf.c
+CC:  math/lib_atanhf.c
+CC:  math/lib_erff.c
+CC:  math/lib_copysignf.c
+CC:  math/lib_acos.c
+CC:  math/lib_asin.c
+CC:  math/lib_atan.c
+CC:  math/lib_atan2.c
+CC:  math/lib_cos.c
+CC:  math/lib_cosh.c
+CC:  math/lib_exp.c
+CC:  math/lib_fabs.c
+CC:  math/lib_fmod.c
+CC:  math/lib_frexp.c
+CC:  math/lib_ldexp.c
+CC:  math/lib_log.c
+CC:  math/lib_log10.c
+CC:  math/lib_log2.c
+CC:  math/lib_modf.c
+CC:  math/lib_pow.c
+CC:  math/lib_sin.c
+CC:  math/lib_sinh.c
+CC:  math/lib_sqrt.c
+CC:  math/lib_tan.c
+CC:  math/lib_tanh.c
+CC:  math/lib_asinh.c
+CC:  math/lib_acosh.c
+CC:  math/lib_atanh.c
+CC:  math/lib_erf.c
+CC:  math/lib_copysign.c
+CC:  math/lib_acosl.c
+CC:  math/lib_asinl.c
+CC:  math/lib_atan2l.c
+CC:  math/lib_atanl.c
+CC:  math/lib_ceill.c
+CC:  math/lib_cosl.c
+CC:  math/lib_coshl.c
+CC:  math/lib_expl.c
+CC:  math/lib_fabsl.c
+CC:  math/lib_floorl.c
+CC:  math/lib_fmodl.c
+CC:  math/lib_frexpl.c
+CC:  math/lib_ldexpl.c
+CC:  math/lib_logl.c
+CC:  math/lib_log10l.c
+CC:  math/lib_log2l.c
+CC:  math/lib_modfl.c
+CC:  math/lib_powl.c
+CC:  math/lib_rintl.c
+CC:  math/lib_roundl.c
+CC:  math/lib_sinl.c
+CC:  math/lib_sinhl.c
+CC:  math/lib_sqrtl.c
+CC:  math/lib_tanl.c
+CC:  math/lib_tanhl.c
+CC:  math/lib_asinhl.c
+CC:  math/lib_acoshl.c
+CC:  math/lib_atanhl.c
+CC:  math/lib_erfl.c
+CC:  math/lib_copysignl.c
+CC:  math/lib_truncl.c
+CC:  math/lib_libexpi.c
+CC:  math/lib_libsqrtapprox.c
+CC:  math/lib_libexpif.c
+CC:  math/lib_ceil.c
+CC:  math/lib_floor.c
+CC:  math/lib_rint.c
+CC:  math/lib_round.c
+CC:  math/lib_trunc.c
+CC:  math/lib_ceilf.c
+CC:  math/lib_floorf.c
+CC:  math/lib_rintf.c
+CC:  math/lib_roundf.c
+CC:  math/lib_truncf.c
+CC:  misc/lib_stream.c
+CC:  misc/lib_utsname.c
+CC:  misc/lib_xorshift128.c
+CC:  misc/lib_tea_encrypt.c
+CC:  misc/lib_tea_decrypt.c
+CC:  misc/lib_filesem.c
+CC:  misc/lib_umul32.c
+CC:  misc/lib_umul64.c
+CC:  misc/lib_umul32x64.c
+CC:  misc/lib_uadd32x64.c
+CC:  misc/lib_uadd64.c
+CC:  misc/lib_usub64x32.c
+CC:  misc/lib_usub64.c
+CC:  misc/lib_sendfile.c
+CC:  misc/lib_streamsem.c
+CC:  misc/lib_mkfifo.c
+CC:  misc/lib_crc64.c
+CC:  misc/lib_crc32.c
+CC:  misc/lib_crc16.c
+CC:  misc/lib_crc8.c
+CC:  misc/lib_dumpbuffer.c
+CC:  misc/lib_match.c
+CC:  misc/lib_debug.c
+CC:  modlib/modlib_bind.c
+CC:  modlib/modlib_depend.c
+CC:  modlib/modlib_init.c
+CC:  modlib/modlib_iobuffer.c
+CC:  modlib/modlib_load.c
+CC:  modlib/modlib_read.c
+CC:  modlib/modlib_registry.c
+CC:  modlib/modlib_sections.c
+CC:  modlib/modlib_symbols.c
+CC:  modlib/modlib_symtab.c
+CC:  modlib/modlib_uninit.c
+CC:  modlib/modlib_unload.c
+CC:  modlib/modlib_verify.c
+CC:  net/lib_addrconfig.c
+CC:  net/lib_etherntoa.c
+CC:  net/lib_htons.c
+CC:  net/lib_htonl.c
+CC:  net/lib_inetaddr.c
+CC:  net/lib_inetntoa.c
+CC:  net/lib_inetntop.c
+CC:  net/lib_inetpton.c
+CC:  net/lib_shutdown.c
+CC:  net/lib_addroute.c
+CC:  net/lib_delroute.c
+CC:  netdb/lib_netdb.c
+CC:  netdb/lib_gethostbyname.c
+CC:  netdb/lib_gethostbynamer.c
+CC:  pthread/pthread_attr_init.c
+CC:  pthread/pthread_attr_destroy.c
+CC:  pthread/pthread_attr_setschedpolicy.c
+CC:  pthread/pthread_attr_getschedpolicy.c
+CC:  pthread/pthread_attr_setinheritsched.c
+CC:  pthread/pthread_attr_getinheritsched.c
+CC:  pthread/pthread_attr_setstacksize.c
+CC:  pthread/pthread_attr_getstacksize.c
+CC:  pthread/pthread_attr_setschedparam.c
+CC:  pthread/pthread_attr_getschedparam.c
+CC:  pthread/pthread_barrierattr_init.c
+CC:  pthread/pthread_barrierattr_destroy.c
+CC:  pthread/pthread_barrierattr_getpshared.c
+CC:  pthread/pthread_barrierattr_setpshared.c
+CC:  pthread/pthread_condattr_init.c
+CC:  pthread/pthread_condattr_destroy.c
+CC:  pthread/pthread_mutexattr_init.c
+CC:  pthread/pthread_mutexattr_destroy.c
+CC:  pthread/pthread_mutexattr_getpshared.c
+CC:  pthread/pthread_mutexattr_setpshared.c
+CC:  pthread/pthread_mutexattr_setprotocol.c
+CC:  pthread/pthread_mutexattr_getprotocol.c
+CC:  pthread/pthread_mutexattr_settype.c
+CC:  pthread/pthread_mutexattr_gettype.c
+CC:  pthread/pthread_setcancelstate.c
+CC:  pthread/pthread_setcanceltype.c
+CC:  pthread/pthread_testcancel.c
+CC:  queue/sq_addlast.c
+CC:  queue/sq_addfirst.c
+CC:  queue/sq_addafter.c
+CC:  queue/sq_cat.c
+CC:  queue/sq_rem.c
+CC:  queue/sq_remlast.c
+CC:  queue/sq_remfirst.c
+CC:  queue/sq_remafter.c
+CC:  queue/sq_count.c
+CC:  queue/dq_addlast.c
+CC:  queue/dq_addfirst.c
+CC:  queue/dq_addafter.c
+CC:  queue/dq_addbefore.c
+CC:  queue/dq_cat.c
+CC:  queue/dq_rem.c
+CC:  queue/dq_remlast.c
+CC:  queue/dq_remfirst.c
+CC:  queue/dq_count.c
+CC:  sched/sched_getprioritymax.c
+CC:  sched/sched_getprioritymin.c
+CC:  sched/task_setcanceltype.c
+CC:  sched/task_testcancel.c
+CC:  semaphore/sem_init.c
+CC:  semaphore/sem_getprotocol.c
+CC:  semaphore/sem_getvalue.c
+CC:  semaphore/sem_setprotocol.c
+CC:  signal/sig_addset.c
+CC:  signal/sig_delset.c
+CC:  signal/sig_emptyset.c
+CC:  signal/sig_fillset.c
+CC:  signal/sig_hold.c
+CC:  signal/sig_ignore.c
+CC:  signal/sig_ismember.c
+CC:  signal/sig_pause.c
+CC:  signal/sig_raise.c
+CC:  signal/sig_relse.c
+CC:  signal/sig_set.c
+CC:  signal/signal.c
+CC:  spawn/lib_psfa_addaction.c
+CC:  spawn/lib_psfa_addclose.c
+CC:  spawn/lib_psfa_adddup2.c
+CC:  spawn/lib_psfa_addopen.c
+CC:  spawn/lib_psfa_destroy.c
+CC:  spawn/lib_psfa_init.c
+CC:  spawn/lib_psfa_dump.c
+CC:  spawn/lib_psa_getflags.c
+CC:  spawn/lib_psa_getschedparam.c
+CC:  spawn/lib_psa_getschedpolicy.c
+CC:  spawn/lib_psa_init.c
+CC:  spawn/lib_psa_setflags.c
+CC:  spawn/lib_psa_setschedparam.c
+CC:  spawn/lib_psa_setschedpolicy.c
+CC:  spawn/lib_psa_getsigmask.c
+CC:  spawn/lib_psa_setsigmask.c
+CC:  spawn/lib_psa_getstacksize.c
+CC:  spawn/lib_psa_setstacksize.c
+CC:  spawn/lib_psa_dump.c
+CC:  stdio/lib_fileno.c
+CC:  stdio/lib_printf.c
+CC:  stdio/lib_sprintf.c
+CC:  stdio/lib_asprintf.c
+CC:  stdio/lib_snprintf.c
+CC:  stdio/lib_libsprintf.c
+CC:  stdio/lib_vsprintf.c
+CC:  stdio/lib_vasprintf.c
+CC:  stdio/lib_vsnprintf.c
+CC:  stdio/lib_libvsprintf.c
+CC:  stdio/lib_dprintf.c
+CC:  stdio/lib_vdprintf.c
+CC:  stdio/lib_meminstream.c
+CC:  stdio/lib_memoutstream.c
+CC:  stdio/lib_memsistream.c
+CC:  stdio/lib_memsostream.c
+CC:  stdio/lib_lowoutstream.c
+CC:  stdio/lib_zeroinstream.c
+CC:  stdio/lib_nullinstream.c
+CC:  stdio/lib_nulloutstream.c
+CC:  stdio/lib_sscanf.c
+CC:  stdio/lib_rawinstream.c
+CC:  stdio/lib_rawoutstream.c
+CC:  stdio/lib_rawsistream.c
+CC:  stdio/lib_rawsostream.c
+CC:  stdio/lib_libnoflush.c
+CC:  stdio/lib_libsnoflush.c
+CC:  stdio/lib_remove.c
+CC:  stdio/lib_fopen.c
+CC:  stdio/lib_freopen.c
+CC:  stdio/lib_fclose.c
+CC:  stdio/lib_fread.c
+CC:  stdio/lib_libfread.c
+CC:  stdio/lib_fseek.c
+CC:  stdio/lib_ftell.c
+CC:  stdio/lib_fsetpos.c
+CC:  stdio/lib_fgetpos.c
+CC:  stdio/lib_fgetc.c
+CC:  stdio/lib_fgets.c
+CC:  stdio/lib_gets_s.c
+CC:  stdio/lib_gets.c
+CC:  stdio/lib_libfgets.c
+CC:  stdio/lib_fwrite.c
+CC:  stdio/lib_libfwrite.c
+CC:  stdio/lib_fflush.c
+CC:  stdio/lib_libflushall.c
+CC:  stdio/lib_libfflush.c
+CC:  stdio/lib_rdflush.c
+CC:  stdio/lib_wrflush.c
+CC:  stdio/lib_fputc.c
+CC:  stdio/lib_puts.c
+CC:  stdio/lib_fputs.c
+CC:  stdio/lib_ungetc.c
+CC:  stdio/lib_vprintf.c
+CC:  stdio/lib_fprintf.c
+CC:  stdio/lib_vfprintf.c
+CC:  stdio/lib_stdinstream.c
+CC:  stdio/lib_stdoutstream.c
+CC:  stdio/lib_stdsistream.c
+CC:  stdio/lib_stdsostream.c
+CC:  stdio/lib_perror.c
+CC:  stdio/lib_feof.c
+CC:  stdio/lib_ferror.c
+CC:  stdio/lib_clearerr.c
+CC:  stdio/lib_tempnam.c
+CC:  stdio/lib_tmpnam.c
+CC:  stdio/lib_setbuf.c
+CC:  stdio/lib_setvbuf.c
+CC:  stdio/lib_dtoa.c
+CC:  stdlib/lib_abs.c
+CC:  stdlib/lib_abort.c
+CC:  stdlib/lib_div.c
+CC:  stdlib/lib_ldiv.c
+CC:  stdlib/lib_lldiv.c
+CC:  stdlib/lib_itoa.c
+CC:  stdlib/lib_labs.c
+CC:  stdlib/lib_llabs.c
+CC:  stdlib/lib_bsearch.c
+CC:  stdlib/lib_rand.c
+CC:  stdlib/lib_qsort.c
+CC:  stdlib/lib_srand.c
+CC:  stdlib/lib_strtol.c
+CC:  stdlib/lib_strtoll.c
+CC:  stdlib/lib_strtoul.c
+CC:  stdlib/lib_strtoull.c
+CC:  stdlib/lib_strtod.c
+CC:  stdlib/lib_strtof.c
+CC:  stdlib/lib_strtold.c
+CC:  stdlib/lib_checkbase.c
+CC:  stdlib/lib_mktemp.c
+CC:  stdlib/lib_mkstemp.c
+CC:  string/lib_ffs.c
+CC:  string/lib_isbasedigit.c
+CC:  string/lib_memset.c
+CC:  string/lib_memchr.c
+CC:  string/lib_memccpy.c
+CC:  string/lib_memcmp.c
+CC:  string/lib_memmove.c
+CC:  string/lib_skipspace.c
+CC:  string/lib_stpcpy.c
+CC:  string/lib_strcasecmp.c
+CC:  string/lib_strcat.c
+CC:  string/lib_strchr.c
+CC:  string/lib_strcpy.c
+CC:  string/lib_strcmp.c
+CC:  string/lib_strcspn.c
+CC:  string/lib_strdup.c
+CC:  string/lib_strerror.c
+CC:  string/lib_strlen.c
+CC:  string/lib_strnlen.c
+CC:  string/lib_strncasecmp.c
+CC:  string/lib_strncat.c
+CC:  string/lib_strncmp.c
+CC:  string/lib_strncpy.c
+CC:  string/lib_strndup.c
+CC:  string/lib_strcasestr.c
+CC:  string/lib_strpbrk.c
+CC:  string/lib_strrchr.c
+CC:  string/lib_strspn.c
+CC:  string/lib_strstr.c
+CC:  string/lib_strtok.c
+CC:  string/lib_strtokr.c
+CC:  string/lib_memcpy.c
+CC:  symtab/symtab_findbyname.c
+CC:  symtab/symtab_findbyvalue.c
+CC:  symtab/symtab_findorderedbyname.c
+CC:  symtab/symtab_findorderedbyvalue.c
+CC:  syslog/lib_syslog.c
+CC:  syslog/lib_setlogmask.c
+CC:  time/lib_strftime.c
+CC:  time/lib_calendar2utc.c
+CC:  time/lib_daysbeforemonth.c
+CC:  time/lib_gettimeofday.c
+CC:  time/lib_isleapyear.c
+CC:  time/lib_settimeofday.c
+CC:  time/lib_time.c
+CC:  time/lib_difftime.c
+CC:  time/lib_mktime.c
+CC:  time/lib_gmtime.c
+CC:  time/lib_gmtimer.c
+CC:  unistd/lib_access.c
+CC:  unistd/lib_swab.c
+CC:  unistd/lib_getopt.c
+CC:  unistd/lib_getoptargp.c
+CC:  unistd/lib_getoptindp.c
+CC:  unistd/lib_getoptoptp.c
+CC:  unistd/lib_chdir.c
+CC:  unistd/lib_getcwd.c
+CC:  unistd/lib_pipe.c
+CC:  unistd/lib_sleep.c
+CC:  unistd/lib_usleep.c
+CC:  unistd/lib_gethostname.c
+CC:  unistd/lib_sethostname.c
+AR:    bin/lib_readdirr.o  bin/lib_telldir.o  bin/lib_fixedmath.o  bin/lib_b16sin.o  bin/lib_b16cos.o  bin/lib_b16atan2.o  bin/lib_imaxabs.o  bin/lib_strtoimax.o  bin/lib_strtoumax.o  bin/lib_basename.o  bin/lib_dirname.o  bin/arch_elf.o  bin/lib_acosf.o  bin/lib_asinf.o  bin/lib_atan2f.o  bin/lib_atanf.o  bin/lib_cosf.o  bin/lib_coshf.o  bin/lib_expf.o  bin/lib_fabsf.o  bin/lib_fmodf.o  bin/lib_frexpf.o  bin/lib_ldexpf.o  bin/lib_logf.o  bin/lib_log10f.o  bin/lib_log2f.o  bin/lib_modff.o  bin/lib_powf.o  bin/lib_sinf.o  bin/lib_sinhf.o  bin/lib_sqrtf.o  bin/lib_tanf.o  bin/lib_tanhf.o  bin/lib_asinhf.o  bin/lib_acoshf.o  bin/lib_atanhf.o  bin/lib_erff.o  bin/lib_copysignf.o  bin/lib_acos.o  bin/lib_asin.o  bin/lib_atan.o  bin/lib_atan2.o  bin/lib_cos.o  bin/lib_cosh.o  bin/lib_exp.o  bin/lib_fabs.o  bin/lib_fmod.o  bin/lib_frexp.o  bin/lib_ldexp.o  bin/lib_log.o  bin/lib_log10.o  bin/lib_log2.o  bin/lib_modf.o  bin/lib_pow.o  bin/lib_sin.o  bin/lib_sinh.o  bin/lib_sqrt.o  bin/lib_tan.o  bin/lib_tanh.o  bin/lib_asinh.o  bin/lib_acosh.o  bin/lib_atanh.o  bin/lib_erf.o  bin/lib_copysign.o  bin/lib_acosl.o  bin/lib_asinl.o  bin/lib_atan2l.o  bin/lib_atanl.o  bin/lib_ceill.o  bin/lib_cosl.o  bin/lib_coshl.o  bin/lib_expl.o  bin/lib_fabsl.o  bin/lib_floorl.o  bin/lib_fmodl.o  bin/lib_frexpl.o  bin/lib_ldexpl.o  bin/lib_logl.o  bin/lib_log10l.o  bin/lib_log2l.o  bin/lib_modfl.o  bin/lib_powl.o  bin/lib_rintl.o  bin/lib_roundl.o  bin/lib_sinl.o  bin/lib_sinhl.o  bin/lib_sqrtl.o  bin/lib_tanl.o  bin/lib_tanhl.o  bin/lib_asinhl.o  bin/lib_acoshl.o  bin/lib_atanhl.o  bin/lib_erfl.o  bin/lib_copysignl.o  bin/lib_truncl.o  bin/lib_libexpi.o  bin/lib_libsqrtapprox.o  bin/lib_libexpif.o  bin/lib_ceil.o  bin/lib_floor.o  bin/lib_rint.o  bin/lib_round.o  bin/lib_trunc.o  bin/lib_ceilf.o  bin/lib_floorf.o  bin/lib_rintf.o  bin/lib_roundf.o  bin/lib_truncf.o  bin/lib_stream.o  bin/lib_utsname.o  bin/lib_xorshift128.o  bin/lib_tea_encrypt.o  bin/lib_tea_decrypt.o  bin/lib_filesem.o  bin/lib_umul32.o  bin/lib_umul64.o  bin/lib_umul32x64.o  bin/lib_uadd32x64.o  bin/lib_uadd64.o  bin/lib_usub64x32.o  bin/lib_usub64.o  bin/lib_sendfile.o  bin/lib_streamsem.o  bin/lib_mkfifo.o  bin/lib_crc64.o  bin/lib_crc32.o  bin/lib_crc16.o  bin/lib_crc8.o  bin/lib_dumpbuffer.o  bin/lib_match.o  bin/lib_debug.o  bin/modlib_bind.o  bin/modlib_depend.o  bin/modlib_init.o  bin/modlib_iobuffer.o  bin/modlib_load.o  bin/modlib_read.o  bin/modlib_registry.o  bin/modlib_sections.o  bin/modlib_symbols.o  bin/modlib_symtab.o  bin/modlib_uninit.o  bin/modlib_unload.o  bin/modlib_verify.o  bin/lib_addrconfig.o  bin/lib_etherntoa.o  bin/lib_htons.o  bin/lib_htonl.o  bin/lib_inetaddr.o  bin/lib_inetntoa.o  bin/lib_inetntop.o  bin/lib_inetpton.o  bin/lib_shutdown.o  bin/lib_addroute.o  bin/lib_delroute.o  bin/lib_netdb.o  bin/lib_gethostbyname.o  bin/lib_gethostbynamer.o  bin/pthread_attr_init.o  bin/pthread_attr_destroy.o  bin/pthread_attr_setschedpolicy.o  bin/pthread_attr_getschedpolicy.o  bin/pthread_attr_setinheritsched.o  bin/pthread_attr_getinheritsched.o  bin/pthread_attr_setstacksize.o  bin/pthread_attr_getstacksize.o  bin/pthread_attr_setschedparam.o  bin/pthread_attr_getschedparam.o  bin/pthread_barrierattr_init.o  bin/pthread_barrierattr_destroy.o  bin/pthread_barrierattr_getpshared.o  bin/pthread_barrierattr_setpshared.o  bin/pthread_condattr_init.o  bin/pthread_condattr_destroy.o  bin/pthread_mutexattr_init.o  bin/pthread_mutexattr_destroy.o  bin/pthread_mutexattr_getpshared.o  bin/pthread_mutexattr_setpshared.o  bin/pthread_mutexattr_setprotocol.o  bin/pthread_mutexattr_getprotocol.o  bin/pthread_mutexattr_settype.o  bin/pthread_mutexattr_gettype.o  bin/pthread_setcancelstate.o  bin/pthread_setcanceltype.o  bin/pthread_testcancel.o  bin/sq_addlast.o  bin/sq_addfirst.o  bin/sq_addafter.o  bin/sq_cat.o  bin/sq_rem.o  bin/sq_remlast.o  bin/sq_remfirst.o  bin/sq_remafter.o  bin/sq_count.o  bin/dq_addlast.o  bin/dq_addfirst.o  bin/dq_addafter.o  bin/dq_addbefore.o  bin/dq_cat.o  bin/dq_rem.o  bin/dq_remlast.o  bin/dq_remfirst.o  bin/dq_count.o  bin/sched_getprioritymax.o  bin/sched_getprioritymin.o  bin/task_setcanceltype.o  bin/task_testcancel.o  bin/sem_init.o  bin/sem_getprotocol.o  bin/sem_getvalue.o  bin/sem_setprotocol.o  bin/sig_addset.o  bin/sig_delset.o  bin/sig_emptyset.o  bin/sig_fillset.o  bin/sig_hold.o  bin/sig_ignore.o  bin/sig_ismember.o  bin/sig_pause.o  bin/sig_raise.o  bin/sig_relse.o  bin/sig_set.o  bin/signal.o  bin/lib_psfa_addaction.o  bin/lib_psfa_addclose.o  bin/lib_psfa_adddup2.o  bin/lib_psfa_addopen.o  bin/lib_psfa_destroy.o  bin/lib_psfa_init.o  bin/lib_psfa_dump.o  bin/lib_psa_getflags.o  bin/lib_psa_getschedparam.o  bin/lib_psa_getschedpolicy.o  bin/lib_psa_init.o  bin/lib_psa_setflags.o  bin/lib_psa_setschedparam.o  bin/lib_psa_setschedpolicy.o  bin/lib_psa_getsigmask.o  bin/lib_psa_setsigmask.o  bin/lib_psa_getstacksize.o  bin/lib_psa_setstacksize.o  bin/lib_psa_dump.o  bin/lib_fileno.o  bin/lib_printf.o  bin/lib_sprintf.o  bin/lib_asprintf.o  bin/lib_snprintf.o  bin/lib_libsprintf.o  bin/lib_vsprintf.o  bin/lib_vasprintf.o  bin/lib_vsnprintf.o  bin/lib_libvsprintf.o  bin/lib_dprintf.o  bin/lib_vdprintf.o  bin/lib_meminstream.o  bin/lib_memoutstream.o  bin/lib_memsistream.o  bin/lib_memsostream.o  bin/lib_lowoutstream.o  bin/lib_zeroinstream.o  bin/lib_nullinstream.o  bin/lib_nulloutstream.o  bin/lib_sscanf.o  bin/lib_rawinstream.o  bin/lib_rawoutstream.o  bin/lib_rawsistream.o  bin/lib_rawsostream.o  bin/lib_libnoflush.o  bin/lib_libsnoflush.o  bin/lib_remove.o  bin/lib_fopen.o  bin/lib_freopen.o  bin/lib_fclose.o  bin/lib_fread.o  bin/lib_libfread.o  bin/lib_fseek.o  bin/lib_ftell.o  bin/lib_fsetpos.o  bin/lib_fgetpos.o  bin/lib_fgetc.o  bin/lib_fgets.o  bin/lib_gets_s.o  bin/lib_gets.o  bin/lib_libfgets.o  bin/lib_fwrite.o  bin/lib_libfwrite.o  bin/lib_fflush.o  bin/lib_libflushall.o  bin/lib_libfflush.o  bin/lib_rdflush.o  bin/lib_wrflush.o  bin/lib_fputc.o  bin/lib_puts.o  bin/lib_fputs.o  bin/lib_ungetc.o  bin/lib_vprintf.o  bin/lib_fprintf.o  bin/lib_vfprintf.o  bin/lib_stdinstream.o  bin/lib_stdoutstream.o  bin/lib_stdsistream.o  bin/lib_stdsostream.o  bin/lib_perror.o  bin/lib_feof.o  bin/lib_ferror.o  bin/lib_clearerr.o  bin/lib_tempnam.o  bin/lib_tmpnam.o  bin/lib_setbuf.o  bin/lib_setvbuf.o  bin/lib_dtoa.o  bin/lib_abs.o  bin/lib_abort.o  bin/lib_div.o  bin/lib_ldiv.o  bin/lib_lldiv.o  bin/lib_itoa.o  bin/lib_labs.o  bin/lib_llabs.o  bin/lib_bsearch.o  bin/lib_rand.o  bin/lib_qsort.o  bin/lib_srand.o  bin/lib_strtol.o  bin/lib_strtoll.o  bin/lib_strtoul.o  bin/lib_strtoull.o  bin/lib_strtod.o  bin/lib_strtof.o  bin/lib_strtold.o  bin/lib_checkbase.o  bin/lib_mktemp.o  bin/lib_mkstemp.o  bin/lib_ffs.o  bin/lib_isbasedigit.o  bin/lib_memset.o  bin/lib_memchr.o  bin/lib_memccpy.o  bin/lib_memcmp.o  bin/lib_memmove.o  bin/lib_skipspace.o  bin/lib_stpcpy.o  bin/lib_strcasecmp.o  bin/lib_strcat.o  bin/lib_strchr.o  bin/lib_strcpy.o  bin/lib_strcmp.o  bin/lib_strcspn.o  bin/lib_strdup.o  bin/lib_strerror.o  bin/lib_strlen.o  bin/lib_strnlen.o  bin/lib_strncasecmp.o  bin/lib_strncat.o  bin/lib_strncmp.o  bin/lib_strncpy.o  bin/lib_strndup.o  bin/lib_strcasestr.o  bin/lib_strpbrk.o  bin/lib_strrchr.o  bin/lib_strspn.o  bin/lib_strstr.o  bin/lib_strtok.o  bin/lib_strtokr.o  bin/lib_memcpy.o  bin/symtab_findbyname.o  bin/symtab_findbyvalue.o  bin/symtab_findorderedbyname.o  bin/symtab_findorderedbyvalue.o  bin/lib_syslog.o  bin/lib_setlogmask.o  bin/lib_strftime.o  bin/lib_calendar2utc.o  bin/lib_daysbeforemonth.o  bin/lib_gettimeofday.o  bin/lib_isleapyear.o  bin/lib_settimeofday.o  bin/lib_time.o  bin/lib_difftime.o  bin/lib_mktime.o  bin/lib_gmtime.o  bin/lib_gmtimer.o  bin/lib_access.o  bin/lib_swab.o  bin/lib_getopt.o  bin/lib_getoptargp.o  bin/lib_getoptindp.o  bin/lib_getoptoptp.o  bin/lib_chdir.o  bin/lib_getcwd.o  bin/lib_pipe.o  bin/lib_sleep.o  bin/lib_usleep.o  bin/lib_gethostname.o  bin/lib_sethostname.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/libc'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/mm'
+CC:  mm_heap/mm_initialize.c
+CC:  mm_heap/mm_sem.c
+CC:  mm_heap/mm_addfreechunk.c
+CC:  mm_heap/mm_size2ndx.c
+CC:  mm_heap/mm_shrinkchunk.c
+CC:  mm_heap/mm_brkaddr.c
+CC:  mm_heap/mm_calloc.c
+CC:  mm_heap/mm_extend.c
+CC:  mm_heap/mm_free.c
+CC:  mm_heap/mm_mallinfo.c
+CC:  mm_heap/mm_malloc.c
+CC:  mm_heap/mm_memalign.c
+CC:  mm_heap/mm_realloc.c
+CC:  mm_heap/mm_zalloc.c
+CC:  umm_heap/umm_initialize.c
+CC:  umm_heap/umm_addregion.c
+CC:  umm_heap/umm_sem.c
+CC:  umm_heap/umm_brkaddr.c
+CC:  umm_heap/umm_calloc.c
+CC:  umm_heap/umm_extend.c
+CC:  umm_heap/umm_free.c
+CC:  umm_heap/umm_mallinfo.c
+CC:  umm_heap/umm_malloc.c
+CC:  umm_heap/umm_memalign.c
+CC:  umm_heap/umm_realloc.c
+CC:  umm_heap/umm_zalloc.c
+CC:  umm_heap/umm_globals.c
+AR:    bin/mm_initialize.o  bin/mm_sem.o  bin/mm_addfreechunk.o  bin/mm_size2ndx.o  bin/mm_shrinkchunk.o  bin/mm_brkaddr.o  bin/mm_calloc.o  bin/mm_extend.o  bin/mm_free.o  bin/mm_mallinfo.o  bin/mm_malloc.o  bin/mm_memalign.o  bin/mm_realloc.o  bin/mm_zalloc.o  bin/umm_initialize.o  bin/umm_addregion.o  bin/umm_sem.o  bin/umm_brkaddr.o  bin/umm_calloc.o  bin/umm_extend.o  bin/umm_free.o  bin/umm_mallinfo.o  bin/umm_malloc.o  bin/umm_memalign.o  bin/umm_realloc.o  bin/umm_zalloc.o  bin/umm_globals.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/mm'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/arch/arm/src'
+AS:  armv7-m/gnu/up_saveusercontext.S
+AS:  armv7-m/gnu/up_fullcontextrestore.S
+AS:  armv7-m/gnu/up_switchcontext.S
+AS:  armv7-m/gnu/up_testset.S
+AS:  armv7-m/gnu/vfork.S
+AS:  armv7-m/gnu/up_lazyexception.S
+AS:  armv7-m/gnu/up_fpu.S
+CC:  chip/sam_start.c
+CC:  chip/sam_clockconfig.c
+CC:  chip/sam_irq.c
+CC:  chip/sam_allocateheap.c
+CC:  chip/sam_lowputc.c
+CC:  chip/sam_serial.c
+CC:  chip/sam_gpio.c
+CC:  chip/sam_pck.c
+CC:  chip/sam_timerisr.c
+CC:  chip/sam_gpioirq.c
+CC:  chip/sam_xdmac.c
+CC:  chip/sam_spi.c
+CC:  chip/sam_twihs.c
+CC:  chip/sam_hsmci.c
+CC:  chip/sam_hsmci_clkdiv.c
+CC:  chip/sam_emac.c
+CC:  chip/sam_ethernet.c
+CC:  armv7-m/up_assert.c
+CC:  armv7-m/up_blocktask.c
+CC:  armv7-m/up_copyfullstate.c
+CC:  common/up_createstack.c
+CC:  common/up_mdelay.c
+CC:  common/up_udelay.c
+CC:  common/up_exit.c
+CC:  common/up_idle.c
+CC:  common/up_initialize.c
+CC:  armv7-m/up_initialstate.c
+CC:  common/up_interruptcontext.c
+CC:  armv7-m/up_memfault.c
+CC:  common/up_modifyreg8.c
+CC:  common/up_modifyreg16.c
+CC:  common/up_modifyreg32.c
+CC:  armv7-m/up_releasepending.c
+CC:  common/up_releasestack.c
+CC:  armv7-m/up_reprioritizertr.c
+CC:  armv7-m/up_schedulesigaction.c
+CC:  armv7-m/up_sigdeliver.c
+CC:  common/up_stackframe.c
+CC:  armv7-m/up_unblocktask.c
+CC:  common/up_usestack.c
+CC:  armv7-m/up_doirq.c
+CC:  armv7-m/up_hardfault.c
+CC:  armv7-m/up_svcall.c
+CC:  common/up_vfork.c
+CC:  armv7-m/up_vectors.c
+CC:  armv7-m/arch_enable_dcache.c
+CC:  armv7-m/arch_disable_dcache.c
+CC:  armv7-m/arch_invalidate_dcache.c
+CC:  armv7-m/arch_invalidate_dcache_all.c
+CC:  armv7-m/up_copyarmstate.c
+CC:  armv7-m/up_coherent_dcache.c
+AR:  up_saveusercontext.o up_fullcontextrestore.o up_switchcontext.o up_testset.o vfork.o up_lazyexception.o up_fpu.o sam_start.o sam_clockconfig.o sam_irq.o sam_allocateheap.o sam_lowputc.o sam_serial.o sam_gpio.o sam_pck.o sam_timerisr.o sam_gpioirq.o sam_xdmac.o sam_spi.o sam_twihs.o sam_hsmci.o sam_hsmci_clkdiv.o sam_emac.o sam_ethernet.o up_assert.o up_blocktask.o up_copyfullstate.o up_createstack.o up_mdelay.o up_udelay.o up_exit.o up_idle.o up_initialize.o up_initialstate.o up_interruptcontext.o up_memfault.o up_modifyreg8.o up_modifyreg16.o up_modifyreg32.o up_releasepending.o up_releasestack.o up_reprioritizertr.o up_schedulesigaction.o up_sigdeliver.o up_stackframe.o up_unblocktask.o up_usestack.o up_doirq.o up_hardfault.o up_svcall.o up_vfork.o up_vectors.o arch_enable_dcache.o arch_disable_dcache.o arch_invalidate_dcache.o arch_invalidate_dcache_all.o up_copyarmstate.o up_coherent_dcache.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/arch/arm/src'
+make[1]: Entering directory '/home/porko/workspace/nx/apps'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/hello'
+CC:  hello_main.c
+AR:     hello_main.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/hello'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/nsh'
+CC:  nsh_main.c
+AR:     nsh_main.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/nsh'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/gpio'
+CC:  gpio_main.c
+AR:     gpio_main.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/gpio'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/examples/rgbled'
+CC:  rgbled.c
+AR:     rgbled.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/examples/rgbled'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/nshlib'
+CC:  nsh_init.c
+CC:  nsh_parse.c
+CC:  nsh_console.c
+CC:  nsh_script.c
+CC:  nsh_system.c
+CC:  nsh_command.c
+CC:  nsh_fscmds.c
+CC:  nsh_ddcmd.c
+CC:  nsh_proccmds.c
+CC:  nsh_mmcmds.c
+CC:  nsh_timcmds.c
+CC:  nsh_envcmds.c
+CC:  nsh_syscmds.c
+CC:  nsh_dbgcmds.c
+CC:  nsh_session.c
+CC:  nsh_fsutils.c
+CC:  nsh_builtin.c
+CC:  nsh_netinit.c
+CC:  nsh_netcmds.c
+CC:  nsh_routecmds.c
+CC:  nsh_mntcmds.c
+CC:  nsh_modcmds.c
+CC:  nsh_consolemain.c
+CC:  nsh_test.c
+AR:   nsh_init.o nsh_parse.o nsh_console.o nsh_script.o nsh_system.o nsh_command.o nsh_fscmds.o nsh_ddcmd.o nsh_proccmds.o nsh_mmcmds.o nsh_timcmds.o nsh_envcmds.o nsh_syscmds.o nsh_dbgcmds.o nsh_session.o nsh_fsutils.o nsh_builtin.o nsh_netinit.o nsh_netcmds.o nsh_routecmds.o nsh_mntcmds.o nsh_modcmds.o nsh_consolemain.o nsh_test.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/nshlib'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/builtin'
+CC:  builtin_forindex.c
+CC:  builtin_list.c
+CC:  exec_builtin.c
+AR:   builtin_forindex.o builtin_list.o exec_builtin.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/builtin'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/install'
+CC:  install.c
+AR:    install.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/install'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/readline'
+CC:  readline.c
+CC:  readline_common.c
+AR:   readline.o readline_common.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/readline'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/netdb'
+CC:  netdb_main.c
+AR:   netdb_main.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/netdb'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/i2c'
+CC:  i2c_bus.c
+CC:  i2c_common.c
+CC:  i2c_dev.c
+CC:  i2c_get.c
+CC:  i2c_set.c
+CC:  i2c_verf.c
+CC:  i2c_devif.c
+CC:  i2c_main.c
+AR:   i2c_bus.o i2c_common.o i2c_dev.o i2c_get.o i2c_set.o i2c_verf.o i2c_devif.o i2c_main.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/i2c'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/system/ramtest'
+CC:  ramtest.c
+AR:    ramtest.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/system/ramtest'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/netutils/netlib'
+CC:  netlib_ipv4addrconv.c
+CC:  netlib_ethaddrconv.c
+CC:  netlib_parsehttpurl.c
+CC:  netlib_setifstatus.c
+CC:  netlib_getifstatus.c
+CC:  netlib_setipv4addr.c
+CC:  netlib_getipv4addr.c
+CC:  netlib_setdripv4addr.c
+CC:  netlib_setipv4netmask.c
+CC:  netlib_getdripv4addr.c
+CC:  netlib_getipv4netmask.c
+CC:  netlib_getarp.c
+CC:  netlib_setarp.c
+CC:  netlib_delarp.c
+CC:  netlib_server.c
+CC:  netlib_listenon.c
+CC:  netlib_setmacaddr.c
+CC:  netlib_getmacaddr.c
+AR:   netlib_ipv4addrconv.o netlib_ethaddrconv.o netlib_parsehttpurl.o netlib_setifstatus.o netlib_getifstatus.o netlib_setipv4addr.o netlib_getipv4addr.o netlib_setdripv4addr.o netlib_setipv4netmask.o netlib_getdripv4addr.o netlib_getipv4netmask.o netlib_getarp.o netlib_setarp.o netlib_delarp.o netlib_server.o netlib_listenon.o netlib_setmacaddr.o netlib_getmacaddr.o
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/netutils/netlib'
+make[2]: Entering directory '/home/porko/workspace/nx/apps/platform'
+AR:   
+make[2]: Leaving directory '/home/porko/workspace/nx/apps/platform'
+make[1]: Leaving directory '/home/porko/workspace/nx/apps'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/net'
+CC:  socket/bind.c
+CC:  socket/connect.c
+CC:  socket/getsockname.c
+CC:  socket/recv.c
+CC:  socket/recvfrom.c
+CC:  socket/send.c
+CC:  socket/sendto.c
+CC:  socket/socket.c
+CC:  socket/net_sockets.c
+CC:  socket/net_close.c
+CC:  socket/net_dupsd.c
+CC:  socket/net_dupsd2.c
+CC:  socket/net_clone.c
+CC:  socket/net_poll.c
+CC:  socket/net_vfcntl.c
+CC:  socket/listen.c
+CC:  socket/accept.c
+CC:  socket/net_monitor.c
+CC:  socket/net_checksd.c
+CC:  pkt/pkt_send.c
+CC:  tcp/tcp_accept.c
+CC:  tcp/tcp_send_buffered.c
+CC:  route/net_addroute.c
+CC:  route/net_allocroute.c
+CC:  route/net_delroute.c
+CC:  route/net_foreachroute.c
+CC:  route/net_router.c
+CC:  route/netdev_router.c
+CC:  netdev/netdev_register.c
+CC:  netdev/netdev_ioctl.c
+CC:  netdev/netdev_txnotify.c
+CC:  netdev/netdev_findbyname.c
+CC:  netdev/netdev_findbyaddr.c
+CC:  netdev/netdev_findbyindex.c
+CC:  netdev/netdev_count.c
+CC:  netdev/netdev_foreach.c
+CC:  netdev/netdev_unregister.c
+CC:  netdev/netdev_carrier.c
+CC:  netdev/netdev_default.c
+CC:  netdev/netdev_verify.c
+CC:  netdev/netdev_rxnotify.c
+CC:  net_initialize.c
+CC:  iob/iob_add_queue.c
+CC:  iob/iob_alloc.c
+CC:  iob/iob_alloc_qentry.c
+CC:  iob/iob_clone.c
+CC:  iob/iob_concat.c
+CC:  iob/iob_copyin.c
+CC:  iob/iob_copyout.c
+CC:  iob/iob_contig.c
+CC:  iob/iob_free.c
+CC:  iob/iob_free_chain.c
+CC:  iob/iob_free_qentry.c
+CC:  iob/iob_free_queue.c
+CC:  iob/iob_initialize.c
+CC:  iob/iob_pack.c
+CC:  iob/iob_peek_queue.c
+CC:  iob/iob_remove_queue.c
+CC:  iob/iob_trimhead.c
+CC:  iob/iob_trimhead_queue.c
+CC:  iob/iob_trimtail.c
+CC:  iob/iob_dump.c
+CC:  arp/arp_arpin.c
+CC:  arp/arp_out.c
+CC:  arp/arp_format.c
+CC:  arp/arp_table.c
+CC:  arp/arp_timer.c
+CC:  pkt/pkt_conn.c
+CC:  pkt/pkt_input.c
+CC:  pkt/pkt_callback.c
+CC:  pkt/pkt_poll.c
+CC:  pkt/pkt_finddev.c
+CC:  local/local_conn.c
+CC:  local/local_release.c
+CC:  local/local_bind.c
+CC:  local/local_fifo.c
+CC:  local/local_recvfrom.c
+CC:  local/local_sendpacket.c
+CC:  local/local_recvutils.c
+CC:  local/local_connect.c
+CC:  local/local_listen.c
+CC:  local/local_accept.c
+CC:  local/local_send.c
+CC:  local/local_sendto.c
+CC:  local/local_netpoll.c
+CC:  tcp/tcp_conn.c
+CC:  tcp/tcp_seqno.c
+CC:  tcp/tcp_devpoll.c
+CC:  tcp/tcp_finddev.c
+CC:  tcp/tcp_timer.c
+CC:  tcp/tcp_send.c
+CC:  tcp/tcp_input.c
+CC:  tcp/tcp_appsend.c
+CC:  tcp/tcp_listen.c
+CC:  tcp/tcp_callback.c
+CC:  tcp/tcp_backlog.c
+CC:  tcp/tcp_ipselect.c
+CC:  tcp/tcp_wrbuffer.c
+CC:  tcp/tcp_wrbuffer_dump.c
+CC:  udp/udp_psock_send.c
+CC:  udp/udp_psock_sendto.c
+CC:  udp/udp_netpoll.c
+CC:  udp/udp_conn.c
+CC:  udp/udp_devpoll.c
+CC:  udp/udp_send.c
+CC:  udp/udp_input.c
+CC:  udp/udp_finddev.c
+CC:  udp/udp_callback.c
+CC:  udp/udp_ipselect.c
+CC:  devif/devif_initialize.c
+CC:  devif/net_setipid.c
+CC:  devif/devif_send.c
+CC:  devif/devif_poll.c
+CC:  devif/devif_callback.c
+CC:  devif/ipv4_input.c
+CC:  devif/devif_iobsend.c
+CC:  devif/devif_pktsend.c
+CC:  procfs/net_procfs.c
+CC:  procfs/netdev_statistics.c
+CC:  utils/net_dsec2tick.c
+CC:  utils/net_dsec2timeval.c
+CC:  utils/net_timeval2dsec.c
+CC:  utils/net_chksum.c
+CC:  utils/net_lock.c
+AR:   bind.o connect.o getsockname.o recv.o recvfrom.o send.o sendto.o socket.o net_sockets.o net_close.o net_dupsd.o net_dupsd2.o net_clone.o net_poll.o net_vfcntl.o listen.o accept.o net_monitor.o net_checksd.o pkt_send.o tcp_accept.o tcp_send_buffered.o net_addroute.o net_allocroute.o net_delroute.o net_foreachroute.o net_router.o netdev_router.o netdev_register.o netdev_ioctl.o netdev_txnotify.o netdev_findbyname.o netdev_findbyaddr.o netdev_findbyindex.o netdev_count.o netdev_foreach.o netdev_unregister.o netdev_carrier.o netdev_default.o netdev_verify.o netdev_rxnotify.o net_initialize.o iob_add_queue.o iob_alloc.o iob_alloc_qentry.o iob_clone.o iob_concat.o iob_copyin.o iob_copyout.o iob_contig.o iob_free.o iob_free_chain.o iob_free_qentry.o iob_free_queue.o iob_initialize.o iob_pack.o iob_peek_queue.o iob_remove_queue.o iob_trimhead.o iob_trimhead_queue.o iob_trimtail.o iob_dump.o arp_arpin.o arp_out.o arp_format.o arp_table.o arp_timer.o pkt_conn.o pkt_input.o pkt_callback.o pkt_poll.o pkt_finddev.o local_conn.o local_release.o local_bind.o local_fifo.o local_recvfrom.o local_sendpacket.o local_recvutils.o local_connect.o local_listen.o local_accept.o local_send.o local_sendto.o local_netpoll.o tcp_conn.o tcp_seqno.o tcp_devpoll.o tcp_finddev.o tcp_timer.o tcp_send.o tcp_input.o tcp_appsend.o tcp_listen.o tcp_callback.o tcp_backlog.o tcp_ipselect.o tcp_wrbuffer.o tcp_wrbuffer_dump.o udp_psock_send.o udp_psock_sendto.o udp_netpoll.o udp_conn.o udp_devpoll.o udp_send.o udp_input.o udp_finddev.o udp_callback.o udp_ipselect.o devif_initialize.o net_setipid.o devif_send.o devif_poll.o devif_callback.o ipv4_input.o devif_iobsend.o devif_pktsend.o net_procfs.o netdev_statistics.o net_dsec2tick.o net_dsec2timeval.o net_timeval2dsec.o net_chksum.o net_lock.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/net'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/fs'
+CC:  fs_initialize.c
+CC:  inode/fs_files.c
+CC:  inode/fs_foreachinode.c
+CC:  inode/fs_inode.c
+CC:  inode/fs_inodeaddref.c
+CC:  inode/fs_inodebasename.c
+CC:  inode/fs_inodefind.c
+CC:  inode/fs_inodefree.c
+CC:  inode/fs_inoderelease.c
+CC:  inode/fs_inoderemove.c
+CC:  inode/fs_inodereserve.c
+CC:  inode/fs_inodesearch.c
+CC:  inode/fs_filedetach.c
+CC:  vfs/fs_close.c
+CC:  vfs/fs_dup.c
+CC:  vfs/fs_dup2.c
+CC:  vfs/fs_fcntl.c
+CC:  vfs/fs_dupfd.c
+CC:  vfs/fs_dupfd2.c
+CC:  vfs/fs_epoll.c
+CC:  vfs/fs_fstat.c
+CC:  vfs/fs_fstatfs.c
+CC:  vfs/fs_getfilep.c
+CC:  vfs/fs_ioctl.c
+CC:  vfs/fs_lseek.c
+CC:  vfs/fs_mkdir.c
+CC:  vfs/fs_open.c
+CC:  vfs/fs_poll.c
+CC:  vfs/fs_read.c
+CC:  vfs/fs_rename.c
+CC:  vfs/fs_rmdir.c
+CC:  vfs/fs_statfs.c
+CC:  vfs/fs_stat.c
+CC:  vfs/fs_select.c
+CC:  vfs/fs_unlink.c
+CC:  vfs/fs_write.c
+CC:  vfs/fs_fsync.c
+CC:  vfs/fs_pread.c
+CC:  vfs/fs_pwrite.c
+CC:  vfs/fs_link.c
+CC:  vfs/fs_readlink.c
+CC:  vfs/fs_fdopen.c
+CC:  driver/fs_registerdriver.c
+CC:  driver/fs_unregisterdriver.c
+CC:  driver/fs_registerblockdriver.c
+CC:  driver/fs_unregisterblockdriver.c
+CC:  driver/fs_findblockdriver.c
+CC:  driver/fs_openblockdriver.c
+CC:  driver/fs_closeblockdriver.c
+CC:  driver/fs_blockproxy.c
+CC:  dirent/fs_closedir.c
+CC:  dirent/fs_opendir.c
+CC:  dirent/fs_readdir.c
+CC:  dirent/fs_rewinddir.c
+CC:  dirent/fs_seekdir.c
+CC:  mmap/fs_mmap.c
+CC:  semaphore/sem_open.c
+CC:  semaphore/sem_close.c
+CC:  semaphore/sem_unlink.c
+CC:  mqueue/mq_open.c
+CC:  mqueue/mq_close.c
+CC:  mqueue/mq_unlink.c
+CC:  mount/fs_mount.c
+CC:  mount/fs_umount2.c
+CC:  mount/fs_foreachmountpoint.c
+CC:  fat/fs_fat32.c
+CC:  fat/fs_fat32dirent.c
+CC:  fat/fs_fat32attrib.c
+CC:  fat/fs_fat32util.c
+CC:  fat/fs_mkfatfs.c
+CC:  fat/fs_configfat.c
+CC:  fat/fs_writefat.c
+CC:  procfs/fs_procfs.c
+CC:  procfs/fs_procfsutil.c
+CC:  procfs/fs_procfsproc.c
+CC:  procfs/fs_procfsuptime.c
+CC:  procfs/fs_procfscpuload.c
+CC:  procfs/fs_procfskmm.c
+AR:   fs_initialize.o fs_files.o fs_foreachinode.o fs_inode.o fs_inodeaddref.o fs_inodebasename.o fs_inodefind.o fs_inodefree.o fs_inoderelease.o fs_inoderemove.o fs_inodereserve.o fs_inodesearch.o fs_filedetach.o fs_close.o fs_dup.o fs_dup2.o fs_fcntl.o fs_dupfd.o fs_dupfd2.o fs_epoll.o fs_fstat.o fs_fstatfs.o fs_getfilep.o fs_ioctl.o fs_lseek.o fs_mkdir.o fs_open.o fs_poll.o fs_read.o fs_rename.o fs_rmdir.o fs_statfs.o fs_stat.o fs_select.o fs_unlink.o fs_write.o fs_fsync.o fs_pread.o fs_pwrite.o fs_link.o fs_readlink.o fs_fdopen.o fs_registerdriver.o fs_unregisterdriver.o fs_registerblockdriver.o fs_unregisterblockdriver.o fs_findblockdriver.o fs_openblockdriver.o fs_closeblockdriver.o fs_blockproxy.o fs_closedir.o fs_opendir.o fs_readdir.o fs_rewinddir.o fs_seekdir.o fs_mmap.o sem_open.o sem_close.o sem_unlink.o mq_open.o mq_close.o mq_unlink.o fs_mount.o fs_umount2.o fs_foreachmountpoint.o fs_fat32.o fs_fat32dirent.o fs_fat32attrib.o fs_fat32util.o fs_mkfatfs.o fs_configfat.o fs_writefat.o fs_procfs.o fs_procfsutil.o fs_procfsproc.o fs_procfsuptime.o fs_procfscpuload.o fs_procfskmm.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/fs'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/binfmt'
+CC:  binfmt_globals.c
+CC:  binfmt_register.c
+CC:  binfmt_unregister.c
+CC:  binfmt_loadmodule.c
+CC:  binfmt_unloadmodule.c
+CC:  binfmt_execmodule.c
+CC:  binfmt_exec.c
+CC:  binfmt_copyargv.c
+CC:  binfmt_dumpmodule.c
+CC:  elf.c
+CC:  libelf/libelf_bind.c
+CC:  libelf/libelf_init.c
+CC:  libelf/libelf_addrenv.c
+CC:  libelf/libelf_iobuffer.c
+CC:  libelf/libelf_load.c
+CC:  libelf/libelf_read.c
+CC:  libelf/libelf_sections.c
+CC:  libelf/libelf_symbols.c
+CC:  libelf/libelf_uninit.c
+CC:  libelf/libelf_unload.c
+CC:  libelf/libelf_verify.c
+CC:  builtin.c
+CC:  libbuiltin/libbuiltin_getname.c
+CC:  libbuiltin/libbuiltin_isavail.c
+AR:   binfmt_globals.o binfmt_register.o binfmt_unregister.o binfmt_loadmodule.o binfmt_unloadmodule.o binfmt_execmodule.o binfmt_exec.o binfmt_copyargv.o binfmt_dumpmodule.o elf.o libelf_bind.o libelf_init.o libelf_addrenv.o libelf_iobuffer.o libelf_load.o libelf_read.o libelf_sections.o libelf_symbols.o libelf_uninit.o libelf_unload.o libelf_verify.o builtin.o libbuiltin_getname.o libbuiltin_isavail.o
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/binfmt'
+make[1]: Entering directory '/home/porko/workspace/nx/nuttx/arch/arm/src'
+make[2]: Entering directory '/home/porko/workspace/nx/nuttx/arch/arm/src/board'
+CC:  sam_boot.c
+CC:  sam_sdram.c
+CC:  sam_appinit.c
+CC:  sam_bringup.c
+CC:  sam_autoleds.c
+CC:  sam_buttons.c
+CC:  sam_hsmci.c
+CC:  sam_ethernet.c
+CC:  sam_spi.c
+CC:  sam_at24config.c
+AR:   sam_boot.o sam_sdram.o sam_appinit.o sam_bringup.o sam_autoleds.o sam_buttons.o sam_hsmci.o sam_ethernet.o sam_spi.o sam_at24config.o 
+make[2]: Leaving directory '/home/porko/workspace/nx/nuttx/arch/arm/src/board'
+LD: nuttx
+Makefile:203: recipe for target 'nuttx' failed
+make[1]: Leaving directory '/home/porko/workspace/nx/nuttx/arch/arm/src'
+Makefile.unix:404: recipe for target 'pass2' failed

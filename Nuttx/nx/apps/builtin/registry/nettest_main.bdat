@@ -1,0 +1,1 @@
+{ "nettest", SCHED_PRIORITY_DEFAULT, 2048, nettest_main },
