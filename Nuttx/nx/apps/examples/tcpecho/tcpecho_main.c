@@ -61,6 +61,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
+#include <sys/socket.h>
+
 #include <nuttx/net/arp.h>
 #include "netutils/netlib.h"
 
@@ -94,6 +96,11 @@
  ****************************************************************************/
 int fd = NULL; // File desciptor for led
 int glb_dly = 500000;
+static int ffd = NULL; 
+static char* fifo_name = "/fifo";
+static char rec_char;
+
+static char TEST[] = "HOOOOOOOO\0";
 /****************************************************************************
  * Private Function Prototypes
  ****************************************************************************/
@@ -306,10 +313,8 @@ static int tcpecho_server(void)
 
   maxi = 0;                     /* max index into client[] array */
 
-      printf("x");
   while (!stop)
     {
-      printf("-");
       nready = poll(client, maxi+1, TCPECHO_POLLTIMEOUT);
 
       if (client[0].revents & POLLRDNORM)
@@ -319,6 +324,7 @@ static int tcpecho_server(void)
           clilen = sizeof(cliaddr);
           connfd = accept(listenfd, (struct sockaddr*)&cliaddr, &clilen);
 
+                      write(sockfd, TEST, sizeof(TEST));
           ninfo("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
           printf("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
 
@@ -397,11 +403,11 @@ static int tcpecho_server(void)
                     }
                   else
                     {
-                      glb_dly = 5000 * buf[0]-0x30;
-                      printf("global delay: %i\n", glb_dly);
-                      toogle_led(led_fd);
-                      printf("%s\n", buf);
-                      write(sockfd, buf, n);
+                      printf("received char: %i\n", buf[0]);
+                      write(ffd, buf, 1);
+                      //toogle_led(led_fd);
+                      //write(sockfd, buf, n);
+                      write(sockfd, TEST, sizeof(TEST));
                     }
                 }
 
@@ -448,12 +454,47 @@ int tcpecho_main(int argc, char *argv[])
       perror("ERROR: failed to setup network\n");
       exit(1);
     }
-
+  mkfifo(fifo_name, 0666);
+  ffd = open(fifo_name, O_WRONLY | O_NONBLOCK);
+  if(ffd < 0 ){
+      printf("No fifo\n\n");
+    }
   printf("Start echo server: %d\n", ret);
 
   ret = tcpecho_server();
 
   printf("ret: %d\n",ret);
   return ret;
+#if 0
+   int listenfd = 0, connfd = 0;
+    struct sockaddr_in serv_addr; 
+
+    char sendBuff[1025];
+    time_t ticks; 
+
+    listenfd = socket(AF_INET, SOCK_STREAM, 0);
+    memset(&serv_addr, '0', sizeof(serv_addr));
+    memset(sendBuff, '0', sizeof(sendBuff)); 
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    serv_addr.sin_port = htons(5000); 
+
+    bind(listenfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr)); 
+
+    listen(listenfd, 10); 
+
+    while(1)
+    {
+        connfd = accept(listenfd, (struct sockaddr*)NULL, NULL); 
+
+        ticks = time(NULL);
+        snprintf(sendBuff, sizeof(sendBuff), "%.24s\r\n", ctime(&ticks));
+        write(connfd, sendBuff, strlen(sendBuff)); 
+
+        close(connfd);
+        sleep(1);
+     }
+#endif
 }
 

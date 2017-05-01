@@ -54,7 +54,9 @@
 /****************************************************************************
  * Public Functions
  ****************************************************************************/
-
+static char* fifo_name = "/fifo";
+static int rgb_ffd = 0;
+static char rx_char = 20;
 /****************************************************************************
  * rgbled_main
  ****************************************************************************/
@@ -75,6 +77,7 @@ int rgbled_main(int argc, char *argv[])
   char buffer[8];
 
   fd = open(CONFIG_EXAMPLES_RGBLED_DEVNAME, O_WRONLY);
+  rgb_ffd = open(fifo_name, O_RDONLY | O_NONBLOCK);
 
   if (fd < 0)
     {
@@ -82,42 +85,17 @@ int rgbled_main(int argc, char *argv[])
       return -1;
     }
 
+    printf("RGB: received char: %i\n", rx_char);
   while(1)
   {
-  //  red   ^= sred;
-  //  green ^= sgreen;
-  //  blue  ^= sblue;
-/*
-    if (green == 255)
-      {
-        sred   = 0;
-        sgreen = -1;
-        sblue  = 1;
-      }
-
-    if (blue == 255)
-      {
-        sred   = 1;
-        sgreen = 0;
-        sblue  = -1;
-      }
-
-    if (red == 255)
-      {
-        sred   = -1;
-        sblue  = 0;
-        sgreen = 1;
-      }
-*/
-    //sprintf(buffer, "#%02X%02X%02X", red, green, blue); 
-    sprintf(buffer, "%02X", 1); 
+    if( read(rgb_ffd, &rx_char, 1) > 0)
+    {
+      printf("Led driver received char: %i\n", rx_char);
+    }
     (void)write(fd, &green, 1);
-    usleep(5000);
-    usleep(5000);
-    sprintf(buffer, "%02X", 0); 
+    usleep(500 * rx_char);
     (void)write(fd, &sgreen, 1);
-    usleep(5000);
-    usleep(5000);
+    usleep(500 * rx_char);
   }
 
   return 0;
