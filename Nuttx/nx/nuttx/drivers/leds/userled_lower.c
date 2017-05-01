@@ -118,7 +118,7 @@ static void userled_led(FAR const struct userled_lowerhalf_s *lower,
 static void userled_ledset(FAR const struct userled_lowerhalf_s *lower,
                            userled_set_t ledset)
 {
-  printf("userled_ledset: %i\n", ledset);
+  // DEBUG: GAEP: printf("userled_ledset: %i\n", ledset);
   board_userled_all(ledset);
 }
 
