@@ -99,8 +99,8 @@ int glb_dly = 500000;
 static int ffd = NULL; 
 static char* fifo_name = "/fifo";
 static char rec_char;
-
-static char TEST[] = "HOOOOOOOO\0";
+static char TEST[] = "All work and no play makes Jack a dull boy\r\n\0";
+static char TEST_0[] = "All play and no work makes Jack a mere toy\r\n\0";
 /****************************************************************************
  * Private Function Prototypes
  ****************************************************************************/
@@ -265,6 +265,7 @@ static int tcpecho_server(void)
   struct pollfd client[CONFIG_EXAMPLES_TCPECHO_NCONN];
   struct sockaddr_in cliaddr, servaddr;
   int led_fd;
+  static char nn = 0;
    // printf("b4 sock:AF_INET:%d\n", AF_INET);
   listenfd = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -408,7 +409,13 @@ static int tcpecho_server(void)
                       write(ffd, buf, 1);
                       //toogle_led(led_fd);
                       //write(sockfd, buf, n);
-                      write(sockfd, TEST, sizeof(TEST));
+                      if(nn & 0x01){
+                        write(sockfd, TEST, sizeof(TEST));
+                      }
+                      else{
+                        write(sockfd, TEST_0, sizeof(TEST_0));
+                      }
+                      ++nn;
                     }
                 }
 
