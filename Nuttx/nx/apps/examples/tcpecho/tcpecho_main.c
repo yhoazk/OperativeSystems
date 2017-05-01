@@ -323,8 +323,9 @@ static int tcpecho_server(void)
 
           clilen = sizeof(cliaddr);
           connfd = accept(listenfd, (struct sockaddr*)&cliaddr, &clilen);
-
-                      write(sockfd, TEST, sizeof(TEST));
+          printf("SEND\n");
+//          write(connfd, TEST, sizeof(TEST));
+//          write(connfd, TEST, sizeof(TEST));
           ninfo("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
           printf("new client: %s\n", inet_ntoa(cliaddr.sin_addr));
 

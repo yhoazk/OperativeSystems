@@ -8,4 +8,5 @@
 .built
 *.obj
 *.hobj
-uImage
+Nuttx/nx/nuttx/uImage
+Nuttx/nx/nuttx/nuttx
