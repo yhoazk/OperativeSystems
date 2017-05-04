@@ -40,7 +40,6 @@
 #include <string.h>
 #include <sys/socket.h>
 
-#include <stdio.h>
 #include <nuttx/net/netstats.h>
 #include "netutils/httpd.h"
 
