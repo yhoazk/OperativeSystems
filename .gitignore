@@ -10,3 +10,6 @@
 *.hobj
 Nuttx/nx/nuttx/uImage
 Nuttx/nx/nuttx/nuttx
+
+*.bdat
+*.pdat

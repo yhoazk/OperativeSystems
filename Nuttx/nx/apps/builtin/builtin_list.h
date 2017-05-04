@@ -7,3 +7,4 @@
 { "ramtest", SCHED_PRIORITY_DEFAULT, 768, ramtest_main },
 { "rgbled", 100, 2048, rgbled_main },
 { "tcpecho", SCHED_PRIORITY_DEFAULT, 2048, tcpecho_main },
+{ "webserver", SCHED_PRIORITY_DEFAULT, 2048, webserver_main },

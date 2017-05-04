@@ -131,7 +131,7 @@ int webserver_main(int argc, char *argv[])
   netlib_set_ipv4addr("eth0", &addr);
 
   /* Set up the default router address */
-
+printf("asdasdasdasd\n");
   addr.s_addr = HTONL(CONFIG_EXAMPLES_WEBSERVER_DRIPADDR);
   netlib_set_dripv4addr("eth0", &addr);
 

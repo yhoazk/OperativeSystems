@@ -40,6 +40,7 @@
 #include <string.h>
 #include <sys/socket.h>
 
+#include <stdio.h>
 #include <nuttx/net/netstats.h>
 #include "netutils/httpd.h"
 
@@ -70,7 +71,7 @@ static void net_stats(struct httpd_state *pstate, char *ptr)
 {
   char buffer[16];
   int i;
-
+  printf("\n in net_stats \n");
   for (i = 0; i < sizeof(g_netstats) / sizeof(net_stats_t); i++)
     {
       snprintf(buffer, 16, "%5u\n", ((net_stats_t *)&g_netstats)[i]);

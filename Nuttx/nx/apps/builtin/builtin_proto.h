@@ -7,3 +7,4 @@ int nettest_main(int argc, char *argv[]);
 int ramtest_main(int argc, char *argv[]);
 int rgbled_main(int argc, char *argv[]);
 int tcpecho_main(int argc, char *argv[]);
+int webserver_main(int argc, char *argv[]);
