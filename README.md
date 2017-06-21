@@ -1,6 +1,8 @@
 # Embedded Operating systems ITESO 2017
 
 
+Seed: [http://www.cs.iit.edu/~iraicu/teaching/CS550-S11/](http://www.cs.iit.edu/~iraicu/teaching/CS550-S11/)
+
 ### Definitions.
 
 - _*TCB*_: Task control block
