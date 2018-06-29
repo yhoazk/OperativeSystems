@@ -10,6 +10,7 @@
 *.hobj
 Nuttx/nx/nuttx/uImage
 Nuttx/nx/nuttx/nuttx
-
+*.run
+*.pdf
 *.bdat
 *.pdat
