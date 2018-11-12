@@ -1,5 +1,4 @@
-# Embedded Operating systems ITESO 2017
-
+# Embedded Operating systems
 
 Seed: [http://www.cs.iit.edu/~iraicu/teaching/CS550-S11/](http://www.cs.iit.edu/~iraicu/teaching/CS550-S11/)
 
@@ -8,6 +7,17 @@ Seed: [http://www.cs.iit.edu/~iraicu/teaching/CS550-S11/](http://www.cs.iit.edu/
 - _*TCB*_: Task control block
 - _*PCB*_: Process control block
 
+## Responsabilities of an OS
+
+1. Resource Management
+  * Allocate CPU, RAM, NV storage and I/O
+2. Data Management
+  * 
+3. Job Management
+  * Schedule, control and monitoring jobs
+  * JOb is a collection of one or more processes
+4. Means of communication
+  * Establish means of communication between processes
 
 ### Process states:
 A process is a program which is currently in execution. Differs from a program in
@@ -19,6 +29,7 @@ Each process includes its own process stack to store temporary data:
 
 A process also includes a data section to contain global variables and heap-memory.
 A process changes its state during its execution to one of the following states.
+
 * New
   * The process just got created.
 * Running
@@ -35,8 +46,7 @@ A process changes its state during its execution to one of the following states.
 ### Locks
 
 ### Monitors
-
-###  Semaphores
+### Semaphores
 
 ### Mutexs and Binary Semaphores
 
@@ -46,7 +56,6 @@ RV1: <> do not have ownership where as the !<> can only released by the one who
 took the <>.
 
 [1]: http://web.eecs.utk.edu/~mbeck/classes/cs560/360/notes/Setjmp/lecture.html "title"
-
 
 ### For Unix `setjmp/longjmp`
 Setjmp() and longjmp() are subroutines that let you perform complex flow-of-control in C/Unix.
@@ -62,8 +71,6 @@ of the program when `setjmp()` was called.
 #include < setjmp.h >
 int setjmp(jmp_buf env);
 ```
-
-
 
 #### Preemptionx vs context switch
 
